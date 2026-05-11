@@ -1,4 +1,3 @@
-import os
 import dspy
 from langchain_core.messages import HumanMessage, AIMessage
 from langgraph.graph import StateGraph, END
@@ -10,13 +9,16 @@ from state import TravelState
 # ---------------------------------------------------------------------------
 
 _lm: dspy.LM | None = None
+_api_key: str | None = None
 
 def get_lm() -> dspy.LM:
     global _lm
     if _lm is None:
+        if not _api_key:
+            raise ValueError("API key not set. Call build_graph(api_key) first.")
         _lm = dspy.LM(
             model="gemini/gemini-2.5-flash",
-            api_key=os.getenv("GEMINI_API_KEY"),
+            api_key=_api_key,
             temperature=0.7,
         )
         dspy.configure(lm=_lm)
@@ -205,7 +207,14 @@ def route_entry(state: TravelState) -> str:
 # Graph builder
 # ---------------------------------------------------------------------------
 
-def build_graph():
+def build_graph(api_key: str):
+    global _lm, _extractor, _classifier, _api_key
+    # Reset singletons so a new key takes effect
+    _lm = None
+    _extractor = None
+    _classifier = None
+    _api_key = api_key
+
     builder = StateGraph(TravelState)
 
     builder.add_node("collect", collect_node)
