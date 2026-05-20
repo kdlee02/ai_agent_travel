@@ -1,0 +1,375 @@
+﻿poi_id,poi_name,poi_type,address_ko,address_en,lat,lng
+POI_a90fcafbd3,Seongsu Yeonmujang-gil (성수연무장길),street,서울특별시 성동구 연무장길 일대,"Yeonmujang-gil, Seongdong-gu, Seoul",37.54415874999967,127.0499445640484
+POI_f8a6cd8fcb,Amore Seongsu (아모레 성수),shopping,서울특별시 성동구 아차산로11길 7,"7 Achasan-ro 11-gil, Seongdong-gu, Seoul",37.54440782489604,127.05901731152727
+POI_0f6c356047,Seongsu Handmade Shoes Street (성수동 수제화 거리),street,서울특별시 성동구 성수동2가 (뚝섬역 인근 수제화거리),"Handmade Shoes Street, Seongsu-dong 2-ga, Seongdong-gu, Seoul",37.531503115571894,127.05764946608359
+POI_aca8417ff4,Seongsu Self-Photo Booths (성수동 셀프 포토부스),tourist_spot,서울특별시 성동구 연무장길 일대,"Around Yeonmujang-gil, Seongdong-gu, Seoul",37.54415874999967,127.0499445640484
+POI_6bdcac6d3e,Seoul Forest (서울숲),park,서울특별시 성동구 뚝섬로 273,"273 Ttukseom-ro, Seongdong-gu, Seoul",37.54306914850906,127.04179894329786
+POI_d47a445470,Seongsu-dong Galbi Alley (성수동 갈비골목),restaurant,서울특별시 성동구 상원1길 26 일대,"Around 26 Sangwon 1-gil, Seongdong-gu, Seoul",37.54617287080923,127.04848717018473
+POI_14973b1d57,Seongsu Sky Bridge (성수 스카이브릿지),tourist_spot,서울특별시 성동구 성수동1가 642-20,"642-20 Seongsu-dong 1-ga, Seongdong-gu, Seoul",37.53808919873887,127.0419361931002
+POI_edd1f0b4d2,Seoul Robot & AI Museum (RAIM) (서울로봇인공지능과학관),museum,서울특별시 도봉구 마들로13길 56,"56 Madeul-ro 13-gil, Dobong-gu, Seoul",37.65557447147269,127.04950619889843
+POI_3b9874631f,Seoul Science Center (서울시립과학관),museum,서울특별시 노원구 한글비석로 160,"160 Hangeulbiseok-ro, Nowon-gu, Seoul",37.642606343704514,127.07699624030974
+POI_789362211b,Dream Forest (북서울꿈의숲),park,서울특별시 강북구 월계로 173,"173 Wolgye-ro, Gangbuk-gu, Seoul",37.62152873921256,127.03852303865304
+POI_db6feffcbd,Gyeongchun Line (Railroad) Forest (경춘선숲길),park,서울특별시 노원구 노원로1길 121,"121 Nowon-ro 1-gil, Nowon-gu, Seoul",37.62032301495616,127.08067541615843
+POI_4fa2bf080c,Surak Hyu Treehouse (수락휴 트리하우스),park,서울특별시 노원구 덕릉로145길 일대,"Deongneung-ro 145-gil, Nowon-gu, Seoul",37.68228465666143,127.08853080523434
+POI_f2e5d14212,National Aviation Museum of Korea (국립항공박물관),museum,서울특별시 강서구 하늘길 177,"177 Haneul-gil, Gangseo-gu, Seoul",37.556869118276595,126.80887269599634
+POI_b19e2be4df,Seoul Botanic Park (서울식물원),park,서울특별시 강서구 마곡동로 161,"161 Magokdong-ro, Gangseo-gu, Seoul",37.56530713572862,126.8329912742287
+POI_ac1c2617d8,SEOULDAL (서울달),tourist_spot,서울특별시 영등포구 여의공원로 68-1,"68-1 Yeouigongwon-ro, Yeongdeungpo-gu, Seoul",37.52633938730018,126.9222524177325
+POI_1d7fac595d,National Assembly Building (국회의사당),tourist_spot,서울특별시 영등포구 의사당대로 1,"1 Uisadang-daero, Yeongdeungpo-gu, Seoul",37.53228539846186,126.91175726160304
+POI_d6f92b733b,Hangang River Bus (한강버스),tourist_spot,서울특별시 영등포구 여의도한강공원,"Yeouido Hangang Park Pier, Yeongdeungpo-gu, Seoul",37.529579035766496,126.93369611528455
+POI_88cea6cd2c,Lotte World Adventure (롯데월드 어드벤처),tourist_spot,서울특별시 송파구 올림픽로 240,"240 Olympic-ro, Songpa-gu, Seoul",37.511481833760485,127.09822412562512
+POI_1c108b5d50,Seoul Sky (서울스카이),tourist_spot,서울특별시 송파구 올림픽로 300,"300 Olympic-ro, Songpa-gu, Seoul",37.5128360692718,127.10171181481532
+POI_df8ddb6e22,"SEA LIFE COEX, Seoul Aquarium (씨라이프 코엑스 아쿠아리움)",tourist_spot,서울특별시 강남구 영동대로 513 코엑스몰 B1,"513 Yeongdong-daero, COEX Mall B1, Gangnam-gu, Seoul",37.512018348059286,127.0590370189726
+POI_bb1169590c,Saemaeul Market (새마을시장),shopping,서울특별시 송파구 석촌호수로12길 24,"24 Seokchonhosu-ro 12-gil, Songpa-gu, Seoul",37.50891975984558,127.08388025105437
+POI_2ace1a03b9,Jangchung-dong Jokbal Alley (장충동 족발 골목),restaurant,서울특별시 중구 장충동 62-96 일대,"Around Jangchung-dong 62-96, Jung-gu, Seoul",37.560313250914746,127.00613071481077
+POI_02a2b899b7,Namsangol Hanok Village (남산골한옥마을),history,서울특별시 중구 퇴계로34길 28,"28 Toegyero 34-gil, Jung-gu, Seoul",37.55684031283972,126.99361993997445
+POI_643978ac1c,Sindang-dong Tteokbokki Town (신당동 떡볶이 타운),restaurant,서울특별시 중구 다산로33길 10-18,"10-18 Dasan-ro 33-gil, Jung-gu, Seoul",37.56300212719103,127.01458995724312
+POI_70ca7943ac,Dongdaemun Shopping Town (동대문 쇼핑타운),shopping,서울특별시 중구 을지로6가 일대,"Around Euljiro 6-ga, Jung-gu, Seoul",37.56656966777952,126.98860801458275
+POI_4bc8648eb0,DDP (Dongdaemun Design Plaza) (DDP 동대문디자인플라자),tourist_spot,서울특별시 중구 을지로 281,"281 Eulji-ro, Jung-gu, Seoul",37.56707028678808,127.0098788028792
+POI_1d620a82a9,Dongdaemun Grilled Fish Alley (동대문 생선구이 골목),restaurant,서울특별시 종로구 종로40가길 일대,"Jong-ro 40ga-gil, Jongno-gu, Seoul",37.57038620362602,127.00611355784604
+POI_f8fb03d794,Namdaemun Market (남대문시장),shopping,서울특별시 중구 남대문시장4길 21,"4 Namdaemunsijang-gil, Jung-gu, Seoul",37.55910418446656,126.9776512124017
+POI_4d2cc36893,Namdaemun Galchi-jorim Alley (남대문 갈치조림골목),restaurant,서울특별시 중구 남대문시장길 16-17,"16-17 Namdaemunsijang-gil, Jung-gu, Seoul",37.559675259691794,126.97692463493553
+POI_0cd80a3e9c,Deoksugung Palace (덕수궁),history,서울특별시 중구 세종대로 99,"99 Sejong-daero, Jung-gu, Seoul",37.56593710799106,126.97591436408169
+POI_e53be2a250,Myeong-dong (명동),shopping,서울특별시 중구 명동 일대,"Myeong-dong, Jung-gu, Seoul",37.56699405391461,126.98807031239879
+POI_c2508d19fc,Euljiro Nogari Alley (을지로 노가리 골목),restaurant,서울특별시 중구 을지로13길 15,"15 Eulji-ro 13-gil, Jung-gu, Seoul",37.56712353691728,126.99180363699284
+POI_a6bd885b8f,Cheonggyecheon Stream (청계천),park,서울특별시 종로구 무교로 37,"37, Mugyo-ro, Jongno-gu, Seoul",37.5693987304375,126.9790936299317
+POI_dc418f049b,Netmarble Game Museum (넷마블게임박물관),museum,서울특별시 구로구 디지털로26길 38,"38 Digital-ro 26-gil, Guro-gu, Seoul",37.479637077512656,126.89545000011839
+POI_0ef206caca,The Hyundai Seoul (더현대서울),shopping,서울특별시 영등포구 여의대로 108,"108 Yeoui-daero, Yeongdeungpo-gu, Seoul",37.52705399379279,126.92784760336099
+POI_de45fbcefa,e-Sports Hall of Fame (e스포츠 명예의 전당),museum,서울특별시 마포구 매봉산로 31 에스플렉스센터 11층,"11F, Espelex Center, 31 Maebongsan-ro, Mapo-gu, Seoul",37.57568005411035,126.88986121654227
+POI_b1d280caaa,HiKR Ground (하이커 그라운드),kpop_landmark,서울특별시 중구 청계천로 40,"40 Cheonggyecheon-ro, Jung-gu, Seoul",37.56852774810529,126.98162732870608
+POI_8d2f0133dc,LoL Park (롤파크),tourist_spot,서울특별시 종로구 종로 33,"33 Jong-ro, Jongno-gu, Seoul",37.57101421898609,126.98143573507046
+POI_62722a5861,N Seoul Tower (N서울타워),tourist_spot,서울특별시 용산구 남산공원길 105,"105 Namsangongwon-gil, Yongsan-gu, Seoul",37.551069611276915,126.98787105045352
+POI_7add289099,Gwanghwamun Square (광화문광장),history,서울특별시 종로구 세종대로 172,"172 Sejong-daero, Jongno-gu, Seoul",37.571620087032585,126.97676492906585
+POI_b5aaf0c857,Insadong Ssamziegil (인사동 쌈지길),shopping,서울특별시 종로구 인사동길 44,"44 Insadong-gil, Jongno-gu, Seoul",37.574251039742435,126.9848357918581
+POI_2f726c16a0,Bukchon Hanok Village (북촌한옥마을),history,서울특별시 종로구 계동길 37,"37 Gyedong-gil, Jongno-gu, Seoul",37.579018508290275,126.98661052339429
+POI_933f0cd1f5,Naksan Park (낙산공원),park,서울특별시 종로구 낙산길 41,"41 Naksan-gil, Jongno-gu, Seoul",37.580580945280104,127.00653016852715
+POI_32fa14e6d1,Seokchon Lake (석촌호수),park,서울특별시 송파구 석촌호수로 일대,"Seokchonhosu-ro, Songpa-gu, Seoul",37.50790280268352,127.0879970997494
+POI_9571ef570b,Olympic Park (올림픽공원),park,서울특별시 송파구 올림픽로 424,"424 Olympic-ro, Songpa-gu, Seoul",37.52281746095689,127.12726884050593
+POI_aeea7b7983,Seoul Olympic Main Stadium (서울올림픽주경기장),tourist_spot,서울특별시 송파구 올림픽로 25,"25 Olympic-ro, Songpa-gu, Seoul",37.51587677899883,127.0727733198348
+POI_0386797dc7,COEX (코엑스),shopping,서울특별시 강남구 영동대로 513,"513 Yeongdong-daero, Gangnam-gu, Seoul",37.512018348059286,127.0590370189726
+POI_9cf5ef83bb,Starfield Library (별마당도서관),tourist_spot,서울특별시 강남구 영동대로 513 코엑스몰 1층,"513 Yeongdong-daero, COEX Mall 1F, Gangnam-gu, Seoul",37.512018348059286,127.0590370189726
+POI_8ebf152c94,Cheongdam Bridge (청담대교),tourist_spot,서울특별시 강남구 청담동,"Cheongdam-dong, Gangnam-gu, Seoul (Cheongdam Bridge)",37.52299041753568,127.05225837419201
+POI_00e6dbfab5,Space K Seoul (스페이스K 서울),museum,서울특별시 강서구 마곡중앙8로 32,"32 Magokjungang 8-ro, Gangseo-gu, Seoul",37.56108487699569,126.83096175278106
+POI_62f3e6825f,LG Arts Center (LG아트센터),tourist_spot,서울특별시 강서구 마곡중앙로 136,"136 Magokjungang-ro, Gangseo-gu, Seoul",37.565262791730476,126.82948078168317
+POI_844957198a,Gangseo Wetland Eco Park (강서 습지생태공원),park,서울특별시 강서구 방화동 2-15,"2-15 Banghwa-dong, Gangseo-gu, Seoul",37.586581353096896,126.81863083039525
+POI_6a3f32ada7,Magok Culture Street (마곡문화거리),street,서울 강서구 공항대로 267,"267, Gonghang-daero, Gangseo-gu, Seoul",37.55902717039751,126.83731164376371
+POI_bf393cd8fc,National Gugak Center (국립국악원),museum,서울특별시 서초구 남부순환로 2364,"2364 Nambusunhwan-ro, Seocho-gu, Seoul",37.477718881260884,127.00981851686117
+POI_cd33251571,National Gugak Museum (국립국악원 국악박물관),museum,서울특별시 서초구 남부순환로 2364,"2364 Nambusunhwan-ro, Seocho-gu, Seoul",37.477718881260884,127.00981851686117
+POI_3f9759d927,Baeknyeonok (백년옥),restaurant,서울특별시 서초구 남부순환로 2407,"2407 Nambusunhwan-ro, Seocho-gu, Seoul",37.481198993988976,127.01378468198091
+POI_d1a4fa79e8,Encore Kalguksu (앵콜칼국수),restaurant,서울특별시 서초구 효령로52길 69,"69 Hyoryeong-ro 52-gil, Seocho-gu, Seoul",37.48129200553055,127.01340585614699
+POI_421d009327,Hangaram Art Museum (한가람미술관),museum,서울특별시 서초구 남부순환로 2406,"2406 Nambusunhwan-ro, Seocho-gu, Seoul",37.48020971208658,127.01416939172078
+POI_a76d2b2b4c,Seoul Arts Center (예술의전당),tourist_spot,서울특별시 서초구 남부순환로 2406,"2406 Nambusunhwan-ro, Seocho-gu, Seoul",37.48020971208658,127.01416939172078
+POI_d602ce91fa,Seoul Calligraphy Art Museum (서울서예박물관),museum,서울특별시 서초구 남부순환로 2406,"2406 Nambusunhwan-ro, Seocho-gu, Seoul",37.48020971208658,127.01416939172078
+POI_d87b5ef9ff,Chungmuro Station (충무로역),tourist_spot,서울특별시 중구 퇴계로 충무로역,"Chungmuro Station, Jung-gu, Seoul",37.561932226923545,126.9950242709765
+POI_b7d3a0e05c,Namsangol Hanok Village (남산골 한옥마을),history,서울특별시 중구 퇴계로34길 28,"28 Toegyero 34-gil, Jung-gu, Seoul",37.55684031283972,126.99361993997445
+POI_aaf8c1a4a6,Seoul Namsan Gugakdang (서울남산국악당),tourist_spot,서울특별시 중구 퇴계로34길 28 (남산골한옥마을 내),"28 Toegyero 34-gil (within Namsangol Hanok Village), Jung-gu, Seoul",37.55684031283972,126.99361993997445
+POI_c96c149806,piknic (피크닉),museum,서울특별시 중구 퇴계로6가길 30,"30 Toegye-ro 6ga-gil, Jung-gu, Seoul",37.55668474315379,126.97805100685264
+POI_bf52c63502,Mangwon Station (망원역),tourist_spot,서울특별시 마포구 월드컵로 136,"136 Worldcup-ro, Mapo-gu, Seoul",37.5603175897877,126.9066479821644
+POI_cc9dfa4c84,Mangwon Market (망원시장),shopping,서울특별시 마포구 포은로 8,"8 Poeun-ro, Mapo-gu, Seoul",37.54909469424142,126.90988483803021
+POI_1daf025c4b,Mangnidan Street Accessory Shop (망리단길 소품샵),shopping,서울 마포구 포은로,"Mangnidan-gil, Mangwon-dong, Mapo-gu, Seoul",37.54935092164579,126.90974299940135
+POI_b19318d1be,Digital Media City (디지털미디어시티),kpop_landmark,서울특별시 마포구 월드컵북로 396,"396 Worldcupbuk-ro, Mapo-gu, Seoul",37.57942888497418,126.88978208798886
+POI_7ce7a07aa4,Dongmyo Station (동묘앞역),tourist_spot,서울특별시 종로구 종로53길 일대,"Around Jongno 53-gil, Jongno-gu, Seoul",37.57308321178237,127.01377198908666
+POI_a54121c341,Dongmyo Flea Market (동묘 구제시장),shopping,서울특별시 종로구 종로53길 14,"14 Jongno 53-gil, Jongno-gu, Seoul",37.57458237023789,127.00844476196647
+POI_c01a159013,Daehak-ro Retro Cafe (대학로 레트로카페),cafe,서울특별시 종로구 대학로 일대 (특정 카페 미정),"Daehak-ro area, Jongno-gu, Seoul (venue TBD)",37.57133990737226,127.00176829251977
+POI_fdd230052f,Dongdaemun Design Plaza (DDP) (동대문디자인플라자),tourist_spot,서울특별시 중구 을지로 281,"281 Eulji-ro, Jung-gu, Seoul",37.56707028678808,127.0098788028792
+POI_043cf1346e,Hongik Univ. (홍대),street,서울특별시 마포구 홍대,"Hongik University area, Mapo-gu, Seoul",37.5535569874357,126.93003876183676
+POI_1bf35cb5e1,Yeonnam-dong (연남동),street,서울특별시 마포구 연남동,"Yeonnam-dong, Mapo-gu, Seoul",37.56392172640174,126.92291721675069
+POI_b6513a97fc,Gyeongui Line Book Street (경의선 책거리),street,서울특별시 마포구 와우산로21길 일대,"Wawoosan-ro 21-gil, Mapo-gu, Seoul",37.55256058628717,126.92339976934839
+POI_7ced01ad30,Mangwon-dong (망원동),street,서울특별시 마포구 망원동,"Mangwon-dong, Mapo-gu, Seoul",37.555821447008,126.9010388276151
+POI_b3b1f9107a,Seoul World Cup Stadium (서울월드컵경기장),tourist_spot,서울특별시 마포구 월드컵로 240,"240 Worldcup-ro, Mapo-gu, Seoul",37.5684188436043,126.89725489697287
+POI_471caf584f,Haneul Park (하늘공원),park,서울특별시 마포구 하늘공원로 95,"95 Haneulgongwon-ro, Mapo-gu, Seoul",37.56916621469331,126.8860167160598
+POI_726085cb31,Jongno Area (종로),street,서울특별시 종로구 종로 일대,"Jongno, Jongno-gu, Seoul",37.57341155734374,127.02237950501211
+POI_2300d786eb,Euljiro Area (을지로),street,서울특별시 중구 을지로 일대,"Euljiro, Jung-gu, Seoul",37.565648719806816,126.98814254820141
+POI_ca7613fad6,National Museum of Modern and Contemporary Art (국립현대미술관),museum,서울특별시 종로구 삼청로 30,"30 Samcheong-ro, Jongno-gu, Seoul",37.578613937948745,126.98057070215
+POI_5e9e509cc1,Seongsu-dong (성수동),street,서울특별시 성동구 성수동,"Seongsu-dong, Seongdong-gu, Seoul",37.53754338629399,127.0463635471817
+POI_cd0f9b574e,Lotte World (롯데월드),tourist_spot,서울특별시 송파구 올림픽로 240,"240 Olympic-ro, Songpa-gu, Seoul",37.511481833760485,127.09822412562512
+POI_f5d81b299f,Lotte World Mall (롯데월드몰),shopping,서울특별시 송파구 올림픽로 300,"300 Olympic-ro, Songpa-gu, Seoul",37.5128360692718,127.10171181481532
+POI_d8e3e55b8e,Jamsil Hangang Park (잠실 한강공원),park,서울특별시 송파구 잠실동 1-1,"Jamsil Hangang Park, Songpa-gu, Seoul",37.50686039380014,127.0817329530831
+POI_195a2b8e71,Gangnam Station (강남역),shopping,서울특별시 강남구 강남대로 396 일대,"Around 396 Gangnam-daero, Gangnam-gu, Seoul",37.4981700785132,127.0283226043252
+POI_7482f4c1e2,The War Memorial of Korea (전쟁기념관),museum,서울특별시 용산구 이태원로 29,"29 Itaewon-ro, Yongsan-gu, Seoul",37.53665904267028,126.97711896758852
+POI_b4f9e4e4d5,Itaewon (이태원),shopping,서울특별시 용산구 이태원로 일대,"Itaewon-ro, Yongsan-gu, Seoul",37.53560506936094,126.97484019906094
+POI_da7791a694,Hannam-dong (한남동),street,서울특별시 용산구 한남동,"Hannam-dong, Yongsan-gu, Seoul",37.53397809683548,127.00257680962314
+POI_03722f571a,Gyeongnidan-gil (경리단길),street,서울특별시 용산구 회나무로 일대,"Hoehwa-ro area, Yongsan-gu, Seoul",37.53873417103192,126.9880455602395
+POI_a102e1b607,Baekbeom Square Park (백범광장공원),park,서울특별시 용산구 백범로 99길 일대,"Baekbeom-ro 99-gil, Yongsan-gu, Seoul",37.53583791214254,126.97156605745892
+POI_0d386fb86c,Seoul Station (서울역),tourist_spot,서울특별시 중구 통일로 1,"1 Tongil-ro, Jung-gu, Seoul",37.55604091654651,126.97159453695092
+POI_a0768d29ad,Hangang Parks (한강공원),park,서울특별시 영등포구 여의도한강공원,"Yeouido Hangang Park, Yeongdeungpo-gu, Seoul (representative)",37.529579035766496,126.93369611528455
+POI_5cab1e0f0c,Bugak Skyway (북악스카이웨이),tourist_spot,서울특별시 종로구 북악산로 267,"267 Bugaksan-ro, Jongno-gu, Seoul",37.60197412615028,126.98055071365528
+POI_943bfbbbaf,Hongik Univ. (홍대입구),street,서울특별시 마포구 홍대입구,"Hongik University area, Mapo-gu, Seoul",37.5535569874357,126.93003876183676
+POI_54fb0e1c79,Seonyudo Park (선유도공원),park,서울특별시 영등포구 선유로 343,"343 Seonyu-ro, Yeongdeungpo-gu, Seoul",37.543529459187546,126.89945462083047
+POI_8018056493,Times Square Yeongdeungpo (영등포 타임스퀘어),shopping,서울특별시 영등포구 영중로 15,"15 Youngjung-ro, Yeongdeungpo-gu, Seoul",37.517195748629376,126.9036461054582
+POI_a2778bc843,63 Building (63빌딩),tourist_spot,서울특별시 영등포구 63로 50,"50 63-ro, Yeongdeungpo-gu, Seoul",37.51957622934884,126.93983757956511
+POI_189dcdd58b,Bongeunsa Temple (봉은사),history,서울특별시 강남구 봉은사로 531,"531 Bongeunsa-ro, Gangnam-gu, Seoul",37.515459649933476,127.05711772475642
+POI_b859a9c737,Gyeongbokgung Palace (경복궁),history,서울특별시 종로구 사직로 161,"161 Sajik-ro, Jongno-gu, Seoul",37.57755982674375,126.97631055236648
+POI_2608a43830,Insa-dong (인사동),shopping,서울특별시 종로구 인사동길 일대,"Insadong-gil, Jongno-gu, Seoul",37.57183419516366,126.98679180882951
+POI_3429df0f15,Samcheong-dong (삼청동),street,서울특별시 종로구 삼청로 일대,"Samcheong-ro, Jongno-gu, Seoul",37.57609593622847,126.9794121359672
+POI_028018c13d,Gwangjang Market (광장시장),shopping,서울특별시 종로구 창경궁로 88,"88 Changgyeonggung-ro, Jongno-gu, Seoul",37.570467421762785,127.00033715844381
+POI_f3e301217f,Namsan Cable Car (남산케이블카),tourist_spot,서울특별시 중구 삼일대로 231,"231 Samil-daero, Jung-gu, Seoul",37.555623591809535,126.99219949115763
+POI_8340e3f30c,Coex Mall (CALT) (코엑스몰),shopping,서울특별시 강남구 영동대로 513,"513 Yeongdong-daero, Gangnam-gu, Seoul",37.512018348059286,127.0590370189726
+POI_42ee6d7801,Hongik Univ. Station (AREX) (홍대입구역),street,서울특별시 마포구 양화로 188,"188 Yanghwa-ro, Mapo-gu, Seoul",37.55744529756238,126.92677875006298
+POI_211ee89946,광장시장,shopping,서울특별시 종로구 창경궁로 88,"88, Changgyeonggung-ro, Jongno-gu, Seoul",37.570467421762785,127.00033715844381
+POI_5a96dc60b8,K-Star Road (압구정 K스타로드),kpop_landmark,서울특별시 강남구 압구정로 일대 (도산공원~압구정로데오역),"Apgujeong-ro, Gangnam-gu, Seoul (Dosan Park to Apgujeong Rodeo Station)",37.52234630969073,127.0196796876019
+POI_1a50a9bf04,Amore Store Beauty Experience (아모레성수 뷰티체험),shopping,서울특별시 성동구 아차산로11길 7,"7 Achasan-ro 11-gil, Seongdong-gu, Seoul",37.54440782489604,127.05901731152727
+POI_e7a497d205,Apgujeong (압구정),shopping,서울특별시 강남구 압구정로 일대,"Apgujeong-ro, Gangnam-gu, Seoul",37.52234630969073,127.0196796876019
+POI_f64080c1bc,Dosan Park (도산공원),park,서울특별시 강남구 도산대로45길 20,"20 Dosan-daero 45-gil, Gangnam-gu, Seoul",37.52395290285362,127.03560562386606
+POI_4e8ef3bc7d,Gyeongui Line Forest Park (경의선 숲길),park,서울특별시 마포구 동교로51길 133,"133 Donggyo-ro 51-gil, Mapo-gu, Seoul, South Korea",37.56648850126204,126.91975891265915
+POI_2e738d1ba1,Changdeokgung Palace and Secret Garden (창덕궁 후원),history,서울특별시 종로구 율곡로 99,"99 Yulgok-ro, Jongno-gu, Seoul, South Korea",37.579356686853515,126.99019110040985
+POI_079a69d8c1,Bukchon (북촌),history,서울특별시 종로구 계동길,"Gyedong-gil, Jongno-gu, Seoul, South Korea",37.58180825093766,126.98694067671875
+POI_be021e04a6,Seodaemun Prison History Hall (서대문형무소),museum,서울특별시 서대문구 통일로 251,"251 Tongil-ro, Seodaemun-gu, Seoul, South Korea",37.57514262535188,126.95561808988049
+POI_076af8855b,The War Memorial of Korea and Yongsan Park (전쟁기념관과 용산공원),museum,서울특별시 용산구 이태원로 29,"29 Itaewon-ro, Yongsan-gu, Seoul, South Korea",37.53665904267028,126.97711896758852
+POI_528752694d,Ichon Hangang Park (이촌 한강공원),park,서울특별시 용산구 이촌로72길 62,"62 Ichon-ro 72-gil, Yongsan-gu, Seoul, South Korea",37.517820657038456,126.97085089239906
+POI_0969200639,Inwangsan Mountain (인왕산),park,서울특별시 종로구 인왕산,"Inwangsan, Jongno-gu, Seoul, South Korea",37.57630802508694,126.95773305326449
+POI_3f9f3f95d3,Sejong Village Food and Culture Alley (세종마을 음식문화거리),street,서울특별시 종로구 체부동 54-2,"54-2 Chebu-dong, Jongno-gu, Seoul, South Korea",37.57655042647526,126.9721042244635
+POI_df81eb4372,Nodeulseom Island (노들섬),tourist_spot,서울특별시 용산구 양녕로 445,"445 Yangnyeong-ro, Yongsan-gu, Seoul, South Korea",37.51766606364029,126.95803661676074
+POI_07bbb6a9fd,National Museum of Korea (국립중앙박물관),museum,서울특별시 용산구 서빙고로 137,"137 Seobinggo-ro, Yongsan-gu, Seoul, South Korea",37.52390941690224,126.98032998022205
+POI_73eb5a40dc,Daehak-ro Streets (대학로거리),street,서울특별시 종로구 대학로,"Daehak-ro, Jongno-gu, Seoul, South Korea",37.57133990737226,127.00176829251977
+POI_ede17fd370,Yongma Land (용마랜드),tourist_spot,서울특별시 중랑구 망우로70길 118,"118 Mangu-ro 70-gil, Jungnang-gu, Seoul, South Korea",37.59451348242008,127.10452926753837
+POI_ecc3b75b70,Choong Ang High School (서울중앙고등학교),tourist_spot,서울특별시 종로구 창덕궁길 164,"164 Changdeokgung-gil, Jongno-gu, Seoul, South Korea",37.58439723898556,126.98652148629051
+POI_a4f440a131,Buam-dong (부암동),street,서울특별시 종로구 부암동,"Buam-dong, Jongno-gu, Seoul, South Korea",37.595446399885034,126.96428978429861
+POI_6af3d36db4,Yeouido Hangang Park (여의도 한강공원),park,서울특별시 영등포구 여의동로 330,"330 Yeouidong-ro, Yeongdeungpo-gu, Seoul, South Korea",37.526347547968754,126.93359545342678
+POI_337d07ad32,Jongno (종로),street,서울특별시 종로구,"Jongno-gu, Seoul, South Korea",37.58997899625068,126.9982821873948
+POI_3518a4791c,Donuimun Museum Village (돈의문박물관마을),museum,서울특별시 종로구 송월길 14-3,"14-3 Songwol-gil, Jongno-gu, Seoul, South Korea",37.56882542465043,126.96852568109665
+POI_80ac075a72,Seoul Museum of History (서울역사박물관),museum,서울특별시 종로구 새문안로 55,"55 Saemunan-ro, Jongno-gu, Seoul, South Korea",37.5705228049501,126.9711340364822
+POI_d6154643d2,Sewoon Plaza (세운상가),tourist_spot,서울특별시 종로구 청계천로 159,"159 Cheonggyecheon-ro, Jongno-gu, Seoul, South Korea",37.56928164061096,126.9952396372887
+POI_c1431a1703,Yongsan Baekbin Railroad (용산땡땡거리),street,서울특별시 용산구 한강로3가 61-1,"61-1 Hangangno 3-ga, Yongsan-gu, Seoul, South Korea",37.5253923020354,126.96461611753372
+POI_ff1dd800c1,Seoullo 7017 (서울로7017),park,서울특별시 중구 청파로 432,"432 Cheongpa-ro, Jung-gu, Seoul, South Korea",37.55802066806207,126.97021517476847
+POI_d6f45456ea,Culture Station Seoul 284 (문화역서울284),museum,서울특별시 중구 통일로 1,"1 Tongil-ro, Jung-gu, Seoul, South Korea",37.55604091654651,126.97159453695092
+POI_87634ca8cc,Mullae Art Village (문래동),street,서울특별시 영등포구 문래동,"Mullae-dong, Yeongdeungpo-gu, Seoul, South Korea",37.52058155223216,126.88678306923867
+POI_1ce327651b,Hanbok Rental (한복대여),tourist_spot,서울특별시 종로구 안국동,"Anguk-dong area, Jongno-gu, Seoul, South Korea (multiple hanbok rental shops)",37.57731178443337,126.98517495927354
+POI_78aae841d7,Changdeokgung Palace (창덕궁),history,서울특별시 종로구 율곡로 99,"99 Yulgok-ro, Jongno-gu, Seoul, South Korea",37.579356686853515,126.99019110040985
+POI_4c4fe42b4f,Jogyesa Temple (조계사),history,서울특별시 종로구 우정국로 55,"55 Ujeongguk-ro, Jongno-gu, Seoul, South Korea",37.573694351369944,126.98236911386778
+POI_603ee76733,Ikseon-dong (익선동),history,서울특별시 종로구 익선동,"Ikseon-dong, Jongno-gu, Seoul, South Korea",37.573393345968874,126.99091885285405
+POI_013cf4babe,IFC Mall (여의도 IFC몰),shopping,서울특별시 영등포구 국제금융로 10,"10 Gukjegeumyung-ro, Yeongdeungpo-gu, Seoul, South Korea",37.525058436298806,126.92593686013313
+POI_3c3b15eac5,The Hyundai Seoul (여의도 더현대 서울),shopping,서울특별시 영등포구 여의대로 108,"108 Yeoui-daero, Yeongdeungpo-gu, Seoul, South Korea",37.52705399379279,126.92784760336099
+POI_1b4c1ea36d,Garosu-gil (가로수길),shopping,서울특별시 강남구 신사동 가로수길,"Garosu-gil, Sinsa-dong, Gangnam-gu, Seoul, South Korea",37.520006553897936,127.02287338247345
+POI_8fab669d91,Apgujeong Select Shop (압구정 편집샵),shopping,서울특별시 강남구 선릉로157길 20-4,"20-4 Seolleung-ro 157-gil, Gangnam-gu, Seoul, South Korea",37.526456261030404,127.03848835014765
+POI_6829312078,Starfield Coex Mall (코엑스 스타필드),shopping,서울특별시 강남구 영동대로 513,"513 Yeongdong-daero, Gangnam-gu, Seoul, South Korea",37.512018348059286,127.0590370189726
+POI_972b74739a,Sindang-dong (신당동),street,서울특별시 중구 신당동,"Sindang-dong, Jung-gu, Seoul, South Korea",37.55399265250616,127.00856058870613
+POI_d867f8f607,Dongdaemun Market (동대문시장),shopping,서울특별시 종로구 종로 272,"272 Jong-ro, Jongno-gu, Seoul, South Korea",37.57082681475057,127.0080941143508
+POI_1d9fa99f41,Hangang River Cruise (한강 유람선),tourist_spot,서울특별시 영등포구 여의동로 290,"290 Yeouidong-ro, Yeongdeungpo-gu, Seoul, South Korea",37.5258601490893,126.93841006932385
+POI_91b430e118,Cheongdam-dong (청담동),shopping,서울특별시 강남구 청담동,"Cheongdam-dong, Gangnam-gu, Seoul, South Korea",37.52299041753568,127.05225837419201
+POI_78381ae165,애호락 안국본점,restaurant,서울 종로구 계동길 41 2층 애호락,"2F, 41, Gyedong-gil, Jongno-gu, Seoul",37.5791657150055,126.98664298215584
+POI_40e8f2091f,루비스 한남점,restaurant,서울 용산구 이태원로55가길 21 6층,"6F, 21, Itaewon-ro 55ga-gil, Yongsan-gu, Seoul",37.53740581268215,127.00025727050974
+POI_01e3039748,그동네떡볶이 홍대본점,restaurant,서울 마포구 와우산로27길 14 그동네떡볶이,"14, Wausan-ro 27-gil, Mapo-gu, Seoul",37.554120833900214,126.92759480777815
+POI_b2fe784026,Hangang Water Sports (한강 수상스포츠),tourist_spot,서울특별시 서초구 잠원로 221-124 (잠원한강공원 수상스포츠 일대),"Jamwon Hangang Park area, 221-124 Jamwon-ro, Seocho-gu, Seoul, South Korea",37.5207524399151,127.01227504994395
+POI_97d7f21055,템플스트라이크 (Bowling),tourist_spot,서울 서초구 강남대로61길 13 지하1층 템플스트라이크,"Temple Strike, B1, 13 Gangnam-daero 61-gil, Seocho-gu, Seoul",37.49889324776589,127.02554853325661
+POI_8cd9084fcc,Karaoke (노래방),tourist_spot,서울 강남구 테헤란로1길 40 악쓰는하마 코인노래방 4층,"4F, Ak Sseuneun Hama Coin Karaoke, 40 Teheran-ro 1-gil, Gangnam-gu, Seoul",37.50089742843279,127.02727327022589
+POI_0fba0cc5d2,Jjimjilbang (찜질방),tourist_spot,서울 서초구 강남대로 309 강남역찜질방 강남코리아,"Gangnam Korea Sauna, 309 Gangnam-daero, Seocho-gu, Seoul",37.490413563390305,127.03026801216066
+POI_fb3b827bf9,Seoul Forest Cafe Streets (서울숲 카페거리),cafe,서울특별시 성동구 서울숲2길 37,"37 Seoulsup 2-gil, Seongdong-gu, Seoul, South Korea",37.54664460997843,127.0427551436349
+POI_cf6e217b18,Seoul City Wall Hike (성곽길 하이킹코스),park,서울특별시 종로구 낙산길 41,"41 Naksan-gil, Jongno District, Seoul",37.580580945280104,127.00653016852715
+POI_bb33e5d3a2,Sinchon Station (신촌역),tourist_spot,서울특별시 서대문구 신촌동,"Sinchon Station, Sinchon-dong, Seodaemun-gu, Seoul, South Korea",37.56800093330146,126.94739669374786
+POI_261fe2a92e,KPOP Dance One-day Class (KPOP 댄스 원데이클래스),kpop_landmark,서울 서대문구 이화여대길 53 8층,"8F, 53 Ewhayeodae-gil, Seodaemun-gu, Seoul",37.55907442576055,126.94541511568683
+POI_085097b48f,Hongdae Railroad Street (홍대 땡땡거리),street,서울특별시 마포구 와우산로,"Wausan-ro, Mapo-gu, Seoul, South Korea",37.544459558555445,126.92245911797227
+POI_eee0f0a8ec,Jazz Bars (재즈바),tourist_spot,서울 마포구 동교로23길 64 지하,"Basement, 64 Donggyo-ro 23-gil, Mapo-gu, Seoul",37.55855639851612,126.91892760907325
+POI_911b1bb898,Anguk Station (안국역),tourist_spot,서울특별시 종로구 율곡로 (안국역),"Anguk Station, Yulgok-ro, Jongno-gu, Seoul, South Korea",37.57682155051477,126.98603658847797
+POI_fc413cf6fb,Unhyeongung Palace (운현궁),history,서울특별시 종로구 삼일대로 464,"464 Samil-daero, Jongno-gu, Seoul, South Korea",37.575728719976084,126.98711355458869
+POI_835607f8cf,Insa-dong Culture Street (인사동 문화의거리),shopping,서울특별시 종로구 관훈동 30-9,"30-9 Gwanhun-dong, Jongno-gu, Seoul, South Korea",37.573659025106025,126.9861276309419
+POI_f0acda8b4c,Seoul Museum of Craft Art (서울공예박물관),museum,서울특별시 종로구 율곡로3길 4,"4 Yulgok-ro 3-gil, Jongno-gu, Seoul, South Korea",37.57703401614202,126.98310914261744
+POI_fdccc51ba3,Gyeongbokgung Station (경복궁역),tourist_spot,서울특별시 종로구 사직로 (경복궁역),"Gyeongbokgung Station, Sajik-ro, Jongno-gu, Seoul, South Korea",37.57582675867173,126.97329642936916
+POI_f43a5e069a,Sajikdan Altar (사직단),history,서울특별시 종로구 사직동 1-28,"1-28 Sajik-dong, Jongno-gu, Seoul, South Korea",37.5758801076223,126.96722944186567
+POI_4ca76850e8,Hwanghakjeong Pavilion (황학정),history,서울특별시 종로구 사직로9길 15-32,"15-32 Sajik-ro 9-gil, Jongno-gu, Seoul, South Korea",37.57814430039037,126.96383853459199
+POI_59ed58fd84,Suseongdong Valley (수성동 계곡),park,서울특별시 종로구 옥인동 185-3,"185-3 Ogin-dong, Jongno-gu, Seoul, South Korea",37.582246147999925,126.96310670520168
+POI_478de5247c,Hyoja-dong Streets (효자동 거리),street,서울특별시 종로구 효자동,"Hyoja-dong, Jongno-gu, Seoul, South Korea",37.581974521464346,126.97164244842784
+POI_5d7d1237ff,Tongin Market (통인시장),shopping,서울특별시 종로구 자하문로15길 18,"18 Jahamun-ro 15-gil, Jongno-gu, Seoul, South Korea",37.58075368143289,126.96995063743242
+POI_8dc84d84d5,Brunch at Yeonhui-dong (연희동 브런치),restaurant,서울 마포구 동교로51길 131 1층,"1F, 131 Donggyo-ro 51-gil, Mapo-gu, Seoul",37.56645287911279,126.91984841902821
+POI_539199209b,Jungnang Dulle-gil (중랑둘레길),park,서울특별시 중랑구 면목동,"Myeonmok-dong, Jungnang-gu, Seoul, South Korea",37.5865470658466,127.0818011185776
+POI_ba27f8ee19,Hangdong Railroad (항동철길),street,서울특별시 구로구 오리로 1189,"1198 Ori-ro, Guro-gu, Seoul, South Korea",37.48885941500106,126.83517886875347
+POI_7974947313,Bukhansan Mountain (북한산),park,서울특별시 성북구 보국문로 262,"262 Bogungmun-ro, Seongbuk-gu, Seoul, South Korea",37.6212336272049,126.99402799940165
+POI_23f23769b5,Bukhansan Caravan & Glamping (북한산 카라반&글램핑),tourist_spot,서울특별시 은평구 진관동 330-14,"330-14 Jingwan-dong, Eunpyeong-gu, Seoul, South Korea",37.65009529032663,126.9379386815496
+POI_09ba32611d,Naksan Park City Wall Trail (낙산공원 성곽길),park,서울특별시 종로구 낙산길 41,"41 Naksan-gil, Jongno-gu, Seoul, South Korea",37.580580945280104,127.00653016852715
+POI_536c305b48,Seolleung and Jeongneung Royal Tombs (선릉과 정릉),history,서울특별시 강남구 선릉로100길 1,"1 Seolleung-ro 100-gil, Gangnam-gu, Seoul, South Korea",37.50736771408222,127.04716601512439
+POI_5d9f740538,Coex Mall (코엑스몰),shopping,서울특별시 강남구 영동대로 513,"513 Yeongdong-daero, Gangnam-gu, Seoul, South Korea",37.512018348059286,127.0590370189726
+POI_8c97a0b49a,Seongsu-dong Area (성수일대),street,서울특별시 성동구 성수동,"Seongsu-dong, Seongdong-gu, Seoul, South Korea",37.53754338629399,127.0463635471817
+POI_b7f41656a3,Leeum Museum of Art (리움미술관),museum,서울특별시 용산구 이태원로55길 60-16,"60-16 Itaewon-ro 55-gil, Yongsan-gu, Seoul, South Korea",37.5385627749698,126.99880648717829
+POI_2453d6060a,Yongsan Park (용산공원),park,서울특별시 용산구 서빙고동 235-102,"235-102 Seobinggo-dong, Yongsan-gu, Seoul, South Korea",37.520553072318236,126.98875731566194
+POI_192881d878,Bluesquare Performance Hall (블루스퀘어 공연),tourist_spot,서울특별시 용산구 이태원로 294,"294 Itaewon-ro, Yongsan-gu, Seoul, South Korea",37.54086761952918,127.00248691926774
+POI_d9c7eff8a8,Dongjakdaegyo Bridge (동작대교),tourist_spot,서울특별시 용산구 이촌동 386,"386 Ichon-dong, Yongsan-gu, Seoul, South Korea",37.5081176685017,126.98170292407924
+POI_7f5252bca6,Seorae Village (서래마을),street,서울특별시 서초구 서래마을,"Seorae Village, Seocho-gu, Seoul, South Korea",37.49641837417771,126.99717591536071
+POI_5413b22ccf,Apgujeong Rodeo (압구정 로데오),shopping,서울특별시 강남구 압구정동 언주로172길,"Eonju-ro 172-gil, Apgujeong-dong, Gangnam-gu, Seoul, South Korea",37.527973550892995,127.03478705373023
+POI_a44a3325c1,Bukchon Hanok Village (북촌 한옥마을),history,서울특별시 종로구 계동길,"Gyedong-gil, Jongno-gu, Seoul, South Korea",37.58180825093766,126.98694067671875
+POI_21c6caef60,Gwanghwamun Square (광화문 광장),history,서울특별시 종로구 세종대로 172,"172 Sejong-daero, Jongno-gu, Seoul, South Korea",37.571620087032585,126.97676492906585
+POI_0ff143d3a9,Dongdaemun Market / DDP (동대문 시장 / DDP),tourist_spot,서울특별시 중구 을지로 281,"281, Eulji-ro, Jung-gu, Seoul",37.56707028678808,127.0098788028792
+POI_33f571c162,Gwanghwamun Area (광화문),history,서울특별시 종로구 세종대로 172,"172, Sejong-daero, Jongno-gu, Seoul",37.571620087032585,126.97676492906585
+POI_662744a853,Namsan Cable Car / N Seoul Tower (남산 케이블카 / N서울타워),tourist_spot,서울특별시 용산구 남산공원길 105,"105, Namsangongwon-gil, Yongsan-gu, Seoul",37.551069611276915,126.98787105045352
+POI_b7b37f000c,Starfield Coex Mall (코엑스몰),shopping,서울특별시 강남구 영동대로 513,"513, Yeongdong-daero, Gangnam-gu, Seoul",37.512018348059286,127.0590370189726
+POI_494606039b,K-Star Road (K-STAR로드),kpop_landmark,서울특별시 강남구 압구정로 407 (압구정동 일대),"407, Apgujeong-ro, Gangnam-gu, Seoul",37.52788712069156,127.04192650983958
+POI_1216706f70,Banpo Bridge Moonlight Rainbow Fountain (반포한강공원),tourist_spot,서울특별시 서초구 신반포로11길 40,"40, Sinbanpo-ro 11-gil, Seocho-gu, Seoul",37.50770522731566,126.99273997522754
+POI_d5c6165e2a,Seongsu-dong Cafe Street (성수동 카페거리),cafe,서울특별시 성동구 연무장길 일대,"Yeonmujang-gil, Seongdong-gu, Seoul",37.54415874999967,127.0499445640484
+POI_2af347c8f5,Jongno Hanok Cafes (종로 한옥 카페),cafe,서울 종로구 율곡로 49-14,"49-14 Yulgok-ro, Jongno-gu, Seoul",37.57666786518978,126.98444430580031
+POI_6bb47e576c,Yeonnam-dong Cafe Street (연남동 카페 골목),cafe,서울특별시 마포구 동교로29길 일대,"Donggyo-ro 29-gil, Mapo-gu, Seoul",37.56110771781564,126.92391430962925
+POI_9451bac1f5,Namdaemun Hairtail Alley (남대문 갈치골목),restaurant,서울특별시 중구 남대문시장길 22-C,"22-C, Namdaemunsijang-gil, Jung-gu, Seoul",37.56006327789374,126.97709356301019
+POI_dc1f6964c1,Itaewon World Food Street (이태원 세계음식거리),restaurant,서울특별시 용산구 이태원로27가길 일대,"Itaewon-ro 27ga-gil, Yongsan-gu, Seoul",37.53515432516313,126.99476340965609
+POI_c20e59e72f,Apgujeong Rodeo Street (압구정 로데오),shopping,서울특별시 강남구 압구정로50길 일대,"Apgujeong-ro 50-gil, Gangnam-gu, Seoul",37.527469618989784,127.03816334370919
+POI_a87a3b67fb,Apgujeong Rodeo Street (압구정 로데오거리),shopping,서울특별시 강남구 압구정로50길 일대,"Apgujeong-ro 50-gil, Gangnam-gu, Seoul",37.527469618989784,127.03816334370919
+POI_f82c485fc4,Dongdaemun Design Plaza (동대문DDP),tourist_spot,서울특별시 중구 을지로 281,"281, Eulji-ro, Jung-gu, Seoul",37.56707028678808,127.0098788028792
+POI_3d7683574d,National Hangeul Museum (국립한글박물관),museum,서울특별시 용산구 서빙고로 139,"139, Seobinggo-ro, Yongsan-gu, Seoul",37.52119111458035,126.9809705497122
+POI_6bc6d392f0,"National Museum of Modern and Contemporary Art, Korea (국립현대미술관)",museum,서울특별시 종로구 삼청로 30 (서울관),"30, Samcheong-ro, Jongno-gu, Seoul (Seoul Branch)",37.578613937948745,126.98057070215
+POI_b83241bdee,Gwanghwamun Square (광화문),history,서울특별시 종로구 세종대로 172,"172, Sejong-daero, Jongno-gu, Seoul",37.571620087032585,126.97676492906585
+POI_24537a27b5,Starfield Coex Mall (스타필드 코엑스),shopping,서울특별시 강남구 영동대로 513,"513, Yeongdong-daero, Gangnam-gu, Seoul",37.512018348059286,127.0590370189726
+POI_9a90e234f6,Hyundai Motor Studio Seoul (현대 모토스튜디오 서울),tourist_spot,서울특별시 강남구 언주로 738,"738, Eonju-ro, Gangnam-gu, Seoul",37.52130607543157,127.03437128603719
+POI_168b667b41,63 Building Observatory (63빌딩 전망대),tourist_spot,서울특별시 영등포구 63로 50 63스퀘어,"63 Square, 50, 63-ro, Yeongdeungpo-gu, Seoul",37.51957622934884,126.93983757956511
+POI_322fa30e98,IFC Mall (IFC 몰),shopping,서울특별시 영등포구 국제금융로 10,"10, Gukjegeumyung-ro, Yeongdeungpo-gu, Seoul",37.525058436298806,126.92593686013313
+POI_aa558538a4,Seoul Central Mosque (한국이슬람교 서울중앙성원),tourist_spot,서울특별시 용산구 우사단로10길 39,"39, Usadan-ro 10-gil, Yongsan-gu, Seoul",37.533279844656086,126.99729798821505
+POI_95f691f73e,Namsan Cable Car (남산 케이블카),tourist_spot,서울특별시 중구 소파로 83,"83, Sopa-ro, Jung-gu, Seoul",37.5565857160925,126.98402406386367
+POI_b66ba0f585,Lotte World Mall Duty Free (롯데월드몰 면세점),shopping,서울특별시 송파구 올림픽로 300 롯데월드몰 에비뉴엘 8~9층,"8-9F, Avenuel, Lotte World Mall, 300, Olympic-ro, Songpa-gu, Seoul",37.5128360692718,127.10171181481532
+POI_3c0dc82406,Starfield Coex Mall (코엑스 스타필드몰),shopping,서울특별시 강남구 영동대로 513,"513, Yeongdong-daero, Gangnam-gu, Seoul",37.512018348059286,127.0590370189726
+POI_d9d223c533,CALT - City Airport Terminal (도심공항터미널),tourist_spot,서울특별시 강남구 테헤란로87길 22,"22, Teheran-ro 87-gil, Gangnam-gu, Seoul",37.50963210010009,127.05944349726684
+POI_ef6e87b107,Lotte Mart Seoul Station Branch (서울역 롯데마트),shopping,서울특별시 중구 청파로 426,"426, Cheongpa-ro, Jung-gu, Seoul",37.55704062934582,126.96986159256306
+POI_2290e38994,Namdaemun Market (남대문 시장),shopping,서울특별시 중구 남대문시장4길 21,"21, Namdaemunsijang 4-gil, Jung-gu, Seoul",37.55910418446656,126.9776512124017
+POI_20b57a0ab6,Myeong-dong Shopping Street (명동 쇼핑거리),shopping,서울특별시 중구 명동길 (명동2가 일대),"Myeongdong-gil, Jung-gu, Seoul",37.5637988511093,126.98336409114219
+POI_b8fbf35df9,Express Bus Terminal Station Underground Shopping Center (고속버스터미널역 지하상가),shopping,서울특별시 서초구 신반포로 194 (고투몰),"194, Sinbanpo-ro, Seocho-gu, Seoul (Goto Mall)",37.506435344593115,127.00683306766112
+POI_a607011f2f,Famille Station (파미에스테이션),shopping,서울특별시 서초구 사평대로 205,"205, Sapyeong-daero, Seocho-gu, Seoul",37.504450604743695,127.00774058675913
+POI_4a3236e3d1,Guest House (게스트하우스),tourist_spot,서울 서초구 주흥3길 13 1층 별관,"Annex Building, 1F, 13 Juheung 3-gil, Seocho-gu, Seoul",37.50421935459173,127.01981046326293
+POI_2845db81c6,Mangwon Market (망원 시장),shopping,서울특별시 마포구 포은로8길 14,"14, Poeun-ro 8-gil, Mapo-gu, Seoul",37.556240105046,126.90562802052875
+POI_c5f3e8845c,Hongdae Street Performance (홍대 거리공연),street,서울특별시 마포구 어울마당로 (홍대 걷고싶은거리),"Eoulmadang-ro, Mapo-gu, Seoul (Hongdae Busking Zone)",37.553377165270106,126.9225527395797
+POI_320b29e256,Hanbok Experience at Palaces (궁궐 한복 체험),history,서울특별시 종로구 사직로 161 (경복궁 주변 대여점 일대),"Around Gyeongbokgung Palace Area, Jongno-gu, Seoul",37.57755982674375,126.97631055236648
+POI_4650adeda8,Riding at Hangang River (한강 라이딩),park,서울특별시 영등포구 여의동로 330 (여의도 한강공원 자전거 대여소 등),"Yeouido Hangang Park Bike Rental, 330, Yeouidong-ro, Yeongdeungpo-gu, Seoul",37.526347547968754,126.93359545342678
+POI_7928be2c26,Food Delivery at Hangang River (한강 배달음식),restaurant,서울특별시 영등포구 여의동로 330 (한강공원 배달존 등),"Hangang Park Delivery Zone, Yeouidong-ro, Yeongdeungpo-gu, Seoul",37.526347547968754,126.93359545342678
+POI_fc920844b0,Traditional Culture Experience (전통문화 체험),history,서울특별시 중구 퇴계로34길 28 (남산골한옥마을 등),"Namsangol Hanok Village, 28, Toegye-ro 34-gil, Jung-gu, Seoul",37.55684031283972,126.99361993997445
+POI_80c942317b,HiKR GROUND (종로 하이커 그라운드),kpop_landmark,서울특별시 중구 청계천로 40 한국관광공사 서울센터 1~5층,"1-5F, 40, Cheonggyecheon-ro, Jung-gu, Seoul",37.56852774810529,126.98162732870608
+POI_ccaafc50f0,Digital Media City (MBC테마파크),kpop_landmark,서울특별시 마포구 성암로 267 (상암동),"267 Seongam-ro, Mapo-gu, Seoul",37.581109081963994,126.89108813502187
+POI_3ecb02ab26,Ewha Womans Univ (이화여대),street,서울특별시 서대문구 이화여대길 52,"52 Ewhayeodae-gil, Seodaemun-gu, Seoul",37.56679730109048,126.95053763514039
+POI_21eae84fca,Yeouido / 63 Building (여의도 / 63빌딩),tourist_spot,서울특별시 영등포구 63로 50,"50 63-ro, Yeongdeungpo-gu, Seoul",37.51957622934884,126.93983757956511
+POI_4f6ab17209,Jonggak Station Food Alley (종각역 포장마차),restaurant,서울특별시 종로구 관철동,"Gwancheol-dong, Jongno-gu, Seoul (Jonggak Avenue of Youth)",37.5689698603811,126.98662087583821
+POI_b043d486be,Yongsan (용산),street,서울특별시 용산구 한강대로23길 55 (용산역 일대),"55 Hangang-daero 23-gil, Yongsan-gu, Seoul",37.52983926594524,126.96486096459574
+POI_77b79906bf,HYBE (하이브),kpop_landmark,서울특별시 용산구 한강대로 42,"42 Hangang-daero, Yongsan-gu, Seoul",37.52459623277265,126.96422883472589
+POI_6986999690,Korea House (한국의집),culture,서울특별시 종로구 사직로 161 (세종로),"161 Sajik-ro, Jongno-gu, Seoul",37.57755982674375,126.97631055236648
+POI_795b196af2,Nodeul Island (노들섬),tourist_spot,서울특별시 용산구 양녕로 445 (이촌동),"445 Yangnyeong-ro, Yongsan-gu, Seoul",37.51766606364029,126.95803661676074
+POI_3a37ea2b5f,Songpa Naru Park (Seokchonhosu Lake) (송파나루공원 (석촌호수)),park,서울특별시 송파구 잠실동,"136 Samhaksa-ro, Songpa-gu, Seoul",37.506005334511215,127.08711895296707
+POI_abf3a81f36,Seoul Museum of Art (SeMA) (서울시립 북서울미술관),museum,서울특별시 노원구 동일로 1238 (중계동),"1238, Dongil-ro, Nowon-gu, Seoul",37.64067143112064,127.06685902905562
+POI_65040f3e25,Gana Art Center (가나아트센터),museum,서울특별시 종로구 평창30길 28 (평창동),"28 Pyeongchang 30-gil, Jongno-gu, Seoul",37.612309925937524,126.97513025337997
+POI_a54f016df2,PKM Gallery (PKM갤러리),museum,서울특별시 종로구 삼청로7길 40 (삼청동),"40 Samcheong-ro 7-gil, Jongno-gu, Seoul",37.58409024933437,126.98008508445082
+POI_c7af56b81e,"Leeum, Samsung Museum of Art (삼성미술관 리움)",museum,서울특별시 용산구 이태원로55길 60-16 (한남동),"60-16, Itaewon-ro 55-gil, Yongsan-gu, Seoul (Hannam-dong)",37.5385627749698,126.99880648717829
+POI_e1d7f6b44a,Biscuit Floor (비스킷 플로어),cafe,서울특별시 노원구 동일로190길 6,"6 Dongil-ro 190-gil, Nowon-gu, Seoul",37.625081458295924,127.07373743635722
+POI_9a0ac84301,Seosulla-gil Road (서순라길),street,서울특별시 종로구 종로 150-3 (종로3가),"150-3 Jong-ro, Jongno-gu, Seoul",37.57036690728911,126.99420217698834
+POI_ca1f16a5b8,Jongmyo Shrine (종묘),history,서울특별시 종로구 종로 157 (훈정동),"157 Jong-ro, Jongno-gu, Seoul",37.570962886196796,126.99389276003444
+POI_31eff39dec,Sewoon Plaza (세운전자상가),tourist_spot,서울특별시 종로구 청계천로 159 (장사동),"159 Cheonggyecheon-ro, Jongno-gu, Seoul",37.56928164061096,126.9952396372887
+POI_14619d7e09,Hanyangdoseong Seoul City Wall Stamp Tour (서울 한양도성 순성길),tourist_spot,서울특별시 중구 신당동 229,"6 Dongil-ro 190-gil, Nowon-gu, Seoul",37.54959230575524,127.00528103428749
+POI_9b8db60e41,Ikseon-dong Hanok Street (익선동 한옥거리),street,서울특별시 종로구 익선동,"Ikseon-dong, Jongno-gu, Seoul",37.573393345968874,126.99091885285405
+POI_0c78a763c4,Changdeokgung Palace Complex [UNESCO World Heritage Site] (창덕궁과 후원 [유네스코 세계유산]),history,서울특별시 종로구 율곡로 99 (와룡동),"99 Yulgok-ro, Jongno-gu, Seoul",37.579356686853515,126.99019110040985
+POI_1769f35b3c,Changgyeonggung Palace (창경궁),history,서울특별시 종로구 창경궁로 185 (와룡동),"185 Changgyeonggung-ro, Jongno-gu, Seoul",37.57888796739405,126.99465788333575
+POI_68165b2976,Seoul Museum of Art (서울시립미술관(서소문본관)),museum,서울특별시 중구 덕수궁길 61,"61 Deoksugung-gil, Jung-gu, Seoul",37.56410564348131,126.97377607986078
+POI_d8df3e58f5,Bosingak Belfry (보신각 터),history,서울특별시 종로구 종로 54,"54, Jong-ro, Jongno-gu, Seoul",37.56976540705418,126.98367608168581
+POI_a99c722c78,The Sool Gallery (전통주갤러리),museum,서울특별시 종로구 북촌로 18,"18 Bukchon-ro, Jongno-gu, Seoul",37.578395167343,126.9859377981112
+POI_c1c43c20b2,Yonsei University (연세대학교),tourist_spot,서울특별시 서대문구 연세로 50,"50, Yonsei-ro, Seodaemun-gu, Seoul",37.5707259776821,126.94083103545043
+POI_fedbe5cf43,Sogang University (서강대학교),tourist_spot,서울특별시 마포구 백범로 35,"35, Baekbeom-ro, Mapo-gu, Seoul",37.549623956335125,126.93892643194428
+POI_d1fc15c291,Ewha Womans University (이화여자대학교),tourist_spot,서울특별시 서대문구 이화여대길 52,"52, Ewhayeodae-gil, Seodaemun-gu, Seoul",37.56679730109048,126.95053763514039
+POI_a354372d8e,Seoul National University (서울대학교),tourist_spot,서울특별시 관악구 관악로 1,"1, Gwanak-ro, Gwanak-gu, Seoul",37.46000707486644,126.94813440599299
+POI_005e931576,Lotte World (롯데월드 어드벤처),tourist_spot,서울특별시 송파구 올림픽로 240,"240 Olympic-ro, Songpa-gu, Seoul",37.511481833760485,127.09822412562512
+POI_ac3f378c0d,Starfield COEX Mall (스타필드 코엑스몰),shopping,서울특별시 강남구 영동대로 513 (삼성동),"513 Yeongdong-daero, Gangnam-gu, Seoul",37.512018348059286,127.0590370189726
+POI_1a5bb84f24,Yeouido Hangang Park (여의도한강공원),park,서울특별시 영등포구 여의동로 330 (여의도동),"330 Yeouidong-ro, Yeongdeungpo-gu, Seoul",37.526347547968754,126.93359545342678
+POI_fe5c6ebfd3,Myeongdong Nanta Theatre (명동난타극장),tourist_spot,서울특별시 중구 명동길 26 (명동2가) 3층,"26, Myeongdong-gil, Jung-gu, Seoul",37.56344535817166,126.98376665210576
+POI_ca93ecb5c2,E-Land Cruise (Hangang River Ferry Cruise) (이랜드크루즈 (한강유람선)),tourist_spot,서울특별시 영등포구 여의동로 280 (여의도동),"290 Yeouidong-ro, Yeongdeungpo-gu, Seoul",37.52496396478703,126.9390190090928
+POI_72719a68f7,K-POP Square Hongdae [Tax Refund Shop] (케이팝 스퀘어 홍대),shopping,서울특별시 마포구 양화로 141 (동교동),"141, Yanghwa-ro, Mapo-gu, Seoul",37.55575410747659,126.92166987902587
+POI_4a23c1a73c,Lotte World Tower & Mall (롯데월드타워&롯데월드몰),shopping,서울특별시 송파구 올림픽로 300 (신천동),"300 Olympic-ro, Songpa-gu, Seoul",37.5128360692718,127.10171181481532
+POI_e3bccbf53e,Seoul Metropolitan Library (서울도서관),museum,서울특별시 중구 세종대로 110 (태평로1가),"110, Sejong-daero, Jung-gu, Seoul",37.566370785810435,126.9779183412472
+POI_93dedd39c8,Seoul Plaza (서울광장),tourist_spot,서울특별시 중구 을지로 지하12 (을지로1가),"110 Sejong-daero, Jung-gu, Seoul",37.565648719806816,126.98814254820141
+POI_f20247182e,N Seoul Tower (남산서울타워),tourist_spot,서울특별시 용산구 남산공원길 105,"105 Namsangongwon-gil, Yongsan-gu, Seoul 0",37.551069611276915,126.98787105045352
+POI_9e1da058ee,Lotte World Tower SEOUL SKY (롯데월드타워 서울스카이),tourist_spot,서울특별시 송파구 올림픽로 300 (신천동) 117~123층,"300 Olympic-ro, Songpa-gu, Seoul",37.5128360692718,127.10171181481532
+POI_648bcca6c6,Songnidan-gil Street (송리단길),street,서울특별시 송파구 백제고분로43길 23,"Baekjegobun-ro 43-gil, Songpa-gu, Seoul, and surrounding areas",37.509085675259655,127.10821886182913
+POI_9fc8297fdd,Soma Museum of Art (소마미술관),museum,서울특별시 송파구 올림픽로 424 (방이동),"424, Olympic-ro, Songpa-gu, Seoul",37.52281746095689,127.12726884050593
+POI_0e125d26db,Dong-Lim Knot Museum (동림매듭박물관),museum,서울특별시 종로구 북촌로12길 10,"10, Bukchon-ro 12-gil, Jongno-gu, Seoul",37.581784590518,126.98559037526351
+POI_d279bf6185,Samcheong-dong Street (삼청동길),street,서울특별시 종로구 삼청로 156 (삼청동),"107 Samcheong-ro, Jongno-gu, Seoul",37.588873528671215,126.98280558585998
+POI_5c3d70a82a,Ssamzigil (쌈지길),shopping,서울특별시 종로구 인사동길 44 (관훈동),"44 Insadong-gil, Jongno-gu, Seoul",37.574251039742435,126.9848357918581
+POI_6081aa270d,Museum Kimchikan (뮤지엄 김치간),museum,서울특별시 종로구 인사동길 35-4 (관훈동) 인사동마루 본관 4~6층,"(4-6th floor, Maru Art Center), 35-4 Insadong-gil, Jongno-gu, Seoul",37.57355381545396,126.98486479020661
+POI_d60e2e4e30,Jongno 3 (sam)-ga Pocha Street (종로3가 포장마차 거리),street,"서울특별시 종로구 관수동 종로 3가역 1호선, 5호선 출구 부근","Gwan-su-dong, Jongno-gu, Seoul",37.56883678628914,126.99200020439353
+POI_3bdc06a597,Spa 1978 (SPA 1978),tourist_spot,서울특별시 강남구 영동대로 416 (대치동) 지하 2층,"416 Yeongdong-daero, Gangnam-gu, Seoul",37.506559969850585,127.06534370720348
+POI_827e950b7a,Café Dior (카페 디올),cafe,서울특별시 강남구 청담동 98-3 크리스챤디올매장,"464 Apgujeong-ro, Gangnam-gu, Seoul",37.524701849246036,127.0463743600998
+POI_bd67d864a3,OME Cooking Lab (오미요리연구소),restaurant,서울특별시 동대문구 약령시로 97-1 (제기동) 1층,"35-1, Yangnyeongjungang-ro, Dongdaemun-gu, Seoul",37.58315312832501,127.04094262828013
+POI_1d52253dc4,Sulwhasoo Dosan Flagship Store (설화수 도산 플래그십 스토어),shopping,서울특별시 강남구 도산대로45길 18 (신사동),"18, Dosan-daero 45-gil, Gangnam-gu, Seoul",37.5237249961938,127.0358168623736
+POI_a5d09203e0,The Children's Museum of the National Folk Museum of Korea (국립민속박물관&국립민속박물관 어린이박물관),museum,서울특별시 종로구 삼청로 37 (세종로),"37 Samcheong-ro, Jongno-gu, Seoul",37.579497879730766,126.97876412614897
+POI_025881b971,Bukchon Cultural Center (북촌문화센터),culture,서울특별시 종로구 계동길 37 (계동),"37 Gyedong-gil, Jongno-gu, Seoul",37.579018508290275,126.98661052339429
+POI_f5b44ab5ae,Osulloc Tea House – Bukchon Branch (오설록 티하우스 북촌점),cafe,서울특별시 종로구 북촌로 45,"45 Bukchon-ro, Jongno-gu, Seoul",37.58104676298559,126.98466099452799
+POI_d52e91eb21,Sejong Village Food Street (세종마을 음식문화거리),restaurant,서울특별시 종로구 자하문로1길 24 (체부동),"Chebu-dong, Jongno-gu, Seoul",37.57651168092666,126.97104854444359
+POI_2496b56728,Cheongwadae Sarangchae (청와대사랑채),museum,서울특별시 종로구 효자로13길 45,"45 Hyoja-ro 13-gil, Jongno-gu, Seoul",37.58257022008668,126.97294300342962
+POI_ac78ba6e78,Korea Furniture Museum (한국가구박물관),museum,서울특별시 성북구 대사관로 121 (성북동),"121 Daesagwan-ro, Seongbuk-gu, Seoul",37.60035015214599,126.99395053609092
+POI_de8ff88797,Sooyeon Sanbang (수연산방),cafe,서울특별시 성북구 성북로26길 8 (성북동),"8 Seongbuk-ro 26-gil, Seongbuk-gu, Seoul",37.59503994431988,126.99484607976842
+POI_6b550e81b5,Seonungak (한옥카페 선운각),cafe,서울특별시 강북구 삼양로173길 223 (우이동),"223 Samyang-ro 173-gil, Gangbuk-gu, Seoul",37.65796162509271,127.0020341110936
+POI_04619c40ff,Baek In-je House (백인제가옥),history,서울특별시 종로구 북촌로7길 16 (가회동),"16 Bukchon-ro 7-gil, Jongno-gu, Seoul",37.58097602078365,126.98394212377137
+POI_213476ad33,K.O.N.G Gallery (공근혜갤러리),museum,서울특별시 종로구 삼청로7길 38 (삼청동),"38 Samcheong-ro 7-gil, Jongno-gu, Seoul (Samcheong-dong)",37.5840268204918,126.9796749155695
+POI_ba3b218a30,Passi 0914 (파시0914),restaurant,서울특별시 강남구 도산대로45길 15 (신사동) 지하 1층,"15 Dosan-daero 45-gil, Gangnam-gu, Seoul",37.52322251400889,127.03511850474595
+POI_1d4251d704,Seoul Wave Art Center (서울웨이브아트센터),museum,서울특별시 서초구 잠원로 145-35 (잠원동),"145-35 Jamwon-ro, Seocho-gu, Seoul",37.518690540911635,127.00703588530087
+POI_c2b2be2102,HANSIK Space E:eum (한식문화공간 이음),restaurant,서울특별시 종로구 북촌로 18 (재동) 한식문화공간 이음,"18 Bukchon-ro, Jongno-gu, Seoul",37.578395167343,126.9859377981112
+POI_385cfcdc44,Seoul Museum of Craft Art (SeMoCA) (서울공예박물관),museum,서울특별시 종로구 율곡로3길 4 (안국동),"4 Yulgok-ro 3-gil, Jongno-gu, Seoul",37.57703401614202,126.98310914261744
+POI_fe7659111e,Songhyeon Green Plaza (열린송현 녹지광장),park,서울특별시 종로구 송현동 48-9,"Songhyeon-dong, Jongno-gu, Seoul",37.57666004321396,126.98140072800669
+POI_2f9578f271,Amsa-dong Prehistoric Site Museum (암사동선사유적박물관),museum,서울특별시 강동구 올림픽로 875 (암사동),"875 Olympic-ro, Gangdong-gu, Seoul",37.56105720201647,127.13063755994526
+POI_b494d26623,Cheonho-dong Rose Village (천호동 장미마을),tourist_spot,서울특별시 강동구 천호동,"Cheonho-dong, Gangdong-gu, Seoul",37.54554267806451,127.1354863287803
+POI_be38e841e5,Gobundari Market (고분다리 전통시장),shopping,서울특별시 강동구 구천면로34길 8 (천호동),"8 Gucheonmyeon-ro 34-gil, Gangdong-gu, Seoul",37.54235014886689,127.13164061553167
+POI_c2b2072c5f,Songwol Naengmyeon (송월냉면),restaurant,서울특별시 강동구 천중로18길 57,"57, Cheonjung-ro 18-gil, Gangdong-gu, Seoul",37.54239238538325,127.12958535005998
+POI_dffe4eab3e,Cheonggyecheon Old Books Street (청계천헌책방거리),street,서울특별시 중구 을지로6가 17-2 현대시티타워,"20 Jangchungdan-ro 13-gil, Jung-gu, Seoul",37.568642182450176,127.00774674353862
+POI_99e153717c,Bangsan Market (방산시장),shopping,서울특별시 종로구 창경궁로 88,"88, Changgyeonggung-ro, Jongno-gu, Seoul",37.570467421762785,127.00033715844381
+POI_9838c0e762,Euljiro Nogari Alley (을지로 노가리골목),street,서울특별시 중구 을지로 129 을지로3가역 3호선,"Eulji-ro 129, Jung-gu, Seoul",37.56627396416613,126.99265012679388
+POI_abe31721d1,Unhyeongung Royal Residence (서울 운현궁),history,서울특별시 종로구 삼일대로 464,"464 Samil-daero, Jongno-gu, Seoul",37.575728719976084,126.98711355458869
+POI_8341a904fb,Insadong Cultural Street (인사동 문화의 거리),street,서울특별시 종로구 인사동 173-4,"Insa-dong, Jongno-gu, Seoul Metropolitan City",37.57258309317737,126.98596085808038
+POI_e0ebae97dc,Marronnier Park (마로니에공원),park,서울특별시 종로구 대학로 104,"104, Daehak-ro, Jongno-gu, Seoul",37.580361098526346,127.00251153453169
+POI_8849a9ca76,Arko Arts Theater (아르코예술극장),tourist_spot,서울특별시 종로구 대학로8길 7 (동숭동),"7, Daehak-ro 8-gil, Jongno-gu, Seoul",37.58120599016959,127.00297367804146
+POI_9e97ecbe2d,Daehakro Arts Theater (대학로예술극장),tourist_spot,서울특별시 종로구 대학로10길 17 (동숭동),"17, Daehak-ro 10-gil, Jongno-gu, Seoul",37.582094790802614,127.00317872868854
+POI_46bcd05111,Seoul City Wall Museum (한양도성박물관),museum,서울특별시 종로구 율곡로 283 (종로6가),"283, Yulgok-ro, Jongno-gu, Seoul",37.57287588484442,127.0085103571985
+POI_3d9618c752,Namdaemun Market Gourmand Alley (Kalguksu Alley) (남대문시장 먹자골목(칼국수 골목)),restaurant,서울특별시 중구 남창동 60-15,"42-1, Namdaemunsijang 4-gil, Jung-gu, Seoul",37.558288439377776,126.97693975275556
+POI_b7337298e5,Bank of Korea Money Museum (화폐박물관),museum,서울특별시 중구 남대문로 39 (남대문로3가),"39 Namdaemun-ro, Jung-gu, Seoul",37.56208123982519,126.98043819723716
+POI_370222ed42,Understand Avenue (언더스탠드에비뉴),tourist_spot,서울특별시 성동구 왕십리로 63,"63, Wangsimni-ro, Seongdong-gu, Seoul",37.54362045687968,127.04359075691826
+POI_ad5845781d,Mangnidan Street (망리단길),street,서울특별시 마포구 망원동,"Poeun-ro, Mapo-gu, Seoul",37.555821447008,126.9010388276151
+POI_9b9721db99,Mangwon Hangang Park (한강시민공원 망원지구 (망원한강공원)),park,서울특별시 마포구 마포나루길 467,"467 Maponaru-gil, Mapo-gu, Seoul",37.552343677962696,126.89988649187372
+POI_8c6cac89be,Geumdwaeji Sikdang (금돼지식당),restaurant,서울특별시 중구 다산로 149 (신당동),"149 Dasan-ro, Jung-gu, Seoul",37.557093134177435,127.01167762485548
+POI_58a0daec3c,Yoojung Restaurant (유정식당),restaurant,서울특별시 강남구 도산대로28길 14 (논현동),"14 Dosan-daero 28-gil, Gangnam-gu, Seoul",37.51838082077182,127.02805722131993
+POI_9676fa6907,Shinuiju Chapsal Sundae (신의주찹쌀순대),restaurant,서울특별시 강남구 영동대로 725,"725 Yeongdong-daero, Gangnam-gu, Seoul",37.52247778230324,127.05515608077464
+POI_01f2907083,Gwanghwamun Gate (광화문),tourist_spot,서울특별시 종로구 사직로 161,"161 Sajik-ro, Jongno-gu, Seoul",37.57755982674375,126.97631055236648
+POI_1f065349b5,"National Museum of Modern and Contemporary Art, Seoul [MMCA Seoul] (국립현대미술관 서울관)",museum,서울특별시 종로구 삼청로 30 (소격동),"30 Samcheong-ro, Jongno-gu, Seoul",37.578613937948745,126.98057070215
+POI_2fc6704523,National Museum of Korean Contemporary History (대한민국역사박물관),museum,서울특별시 종로구 세종대로 198 (세종로),"198 Sejong-daero, Jongno-gu, Seoul",37.57393745533028,126.9778014916443
+POI_c3c16f4ef8,Ground Seesaw Seochon (그라운드시소 서촌),museum,서울특별시 종로구 자하문로6길 18-8 (통의동),"18-8, Jahamun-ro 6-gil, Jongno-gu, Seoul",37.577840434234815,126.97291610539864
+POI_6af0dfdc5a,Seoul K-Medi Center (서울한방진흥센터),tourist_spot,서울특별시 동대문구 약령중앙로 26 (제기동),"26 Yangnyeongjungang-ro, Dongdaemun-gu, Seoul",37.58052413319827,127.0376527076262
+POI_99b69c5d50,Tea Therapy (티테라피),cafe,서울특별시 종로구 윤보선길 74 (안국동),"74 Yunboseon-gil, Jongno-gu, Seoul",37.5791873927543,126.98356830604604
+POI_a6c3d0ceb6,Aromind (아로마인드),tourist_spot,서울특별시 종로구 북촌로5길 19-7 (재동),"19-7 Bukchon-ro 5-gil, Jongno-gu, Seoul",37.57914067845168,126.98421397115791
+POI_96ab913588,Mosim (모심),restaurant,서울특별시 성북구 개운사길 8,"8 Gaeunsa-gil, Seongbuk-gu, Seoul",37.58673086728804,127.02953704368616
+POI_b3d0d70e24,Daelim Changgo Gallery (성수동 대림창고 갤러리),cafe,서울특별시 성동구 성수이로 78 (성수동2가),"78 Seongsui-ro, Seongdong-gu, Seoul",37.54196104032842,127.05653705769294
+POI_bf41ef48df,Seongsu-dong Handmade Shoes Street (성수동 수제화거리),street,서울특별시 성동구 성수동2가 289-30,"15, Yeonmujang 7-gil, Seongdong-gu, Seoul",37.5465473367351,127.05772254920214
+POI_9b68df422f,Oil Tank Culture Park (문화비축기지),park,서울특별시 마포구 증산로 87,"87 Jeungsan-ro, Mapo-gu, Seoul",37.57110627153124,126.894239097082
+POI_c488831396,World Cup Park (월드컵공원),park,서울특별시 마포구 월드컵로 243-60 (성산동),"243-60 World Cup-ro, Mapo-gu, Seoul",37.56346704123328,126.89845584921181
+POI_a3871244eb,Nanji Hangang Park (난지한강공원),park,서울특별시 마포구 한강난지로 162 (상암동),"162 Hangangnanji-ro, Mapo-gu, Seoul",37.56287830759727,126.88529913720191
+POI_73cdcf6755,Hangaram Art Museum in Seoul Arts Center (예술의전당 한가람미술관),museum,서울특별시 서초구 남부순환로 2406,"2406, Nambusunhwan-ro, Seocho-gu, Seoul",37.48020971208658,127.01416939172078
+POI_adb8b6faac,Some Sevit (세빛섬),tourist_spot,서울특별시 서초구 올림픽대로 2085-14 (반포동),"2085-14, Olympic-daero, Seocho-gu, Seoul",37.51171159626179,126.99497094979432
+POI_82e33caa7c,Banpo Hangang Park (반포한강공원),park,서울특별시 서초구 신반포로11길 40 (반포동),"40 Sinbanpo-ro 11-gil, Seocho-gu, Seoul",37.50770522731566,126.99273997522754
+POI_bcc6dbf844,Jogyesa Temple (조계사(서울)),tourist_spot,서울특별시 종로구 우정국로 55 (견지동),"55 Ujeongguk-ro, Jongno-gu, Seoul",37.573694351369944,126.98236911386778
+POI_ffd94a3e70,Seoul Upcycling Plaza (서울새활용플라자),tourist_spot,서울특별시 성동구 자동차시장길 49 (용답동),"49 Jadongchasijang-gil, Seongdong-gu, Seoul",37.55869290265427,127.05783039926044
+POI_c79d1b77af,Cheongdam Fashion Street (청담패션거리),shopping,서울특별시 강남구 청담동,"Cheongdam-dong, Gangnam-gu, Seoul-si",37.52299041753568,127.05225837419201
+POI_4ac353a80a,Rakkojae Seoul Bukchon Hanok Hotel (락고재 서울 북촌 한옥호텔),tourist_spot,서울특별시 종로구 계동길 49-23,"49-23 , Gyedong-gil, Jongno-gu, Seoul",37.580114427607526,126.98622215434288
+POI_9e758043ab,Namsan Outdoor Botanical Garden (남산 야외식물원),park,서울 용산구 소월로 323,"323, Sowol-ro, Yongsan-gu, Seoul",37.5414454900027,126.99696240059866
+POI_af3aa21c9a,Gyeongnidan Street (경리단길),street,서울특별시 용산구 이태원동 210-65,"Itaewon-dong, Yongsan-gu, Seoul",37.540005442554005,126.99238753441595
+POI_926a91b383,Itaewon Shopping Street (이태원 쇼핑거리),shopping,서울특별시 용산구 이태원동,"Itaewon-dong, Yongsan-gu, Seoul",37.53065791712886,126.99119672396387
+POI_063f1f0abb,Convention and Exhibition Center (COEX) (한국종합무역센터(코엑스)),shopping,서울특별시 강남구 영동대로 513,"513, Yeongdong-daero, Gangnam-gu, Seoul",37.512018348059286,127.0590370189726
+POI_9128ccad45,COEX Aquarium (코엑스 아쿠아리움),tourist_spot,서울특별시 강남구 영동대로 513 (삼성동),"513, Yeongdong-daero, Gangnam-gu, Seoul",37.512018348059286,127.0590370189726
+POI_a727381ed9,Seoul Bongeunsa Temple (봉은사 (서울)),history,서울특별시 강남구 봉은사로 531 (삼성동),"531 Bongeunsa-ro, Gangnam-gu, Seoul",37.515459649933476,127.05711772475642
+POI_f2292358ef,Sinsa-dong Garosu-gil Road (신사동 가로수길),street,서울특별시 강남구 가로수길 23 (신사동),"Sinsa-dong, Gangnam-gu, Seoul",37.51965606799503,127.02274244352047
+POI_921637550c,Yanghwa Hangang Park (한강시민공원 양화지구(양화한강공원)),park,서울특별시 영등포구 노들로 221 (당산동),"221, Nodeul-ro, Yeongdeungpo-gu, Seoul",37.53833349376815,126.90225716183281
+POI_ac5e0d55e2,The Hyundai Seoul (더현대 서울),shopping,서울특별시 영등포구 여의대로 108 (여의도동),"108 Yeoui-daero, Yeongdeungpo-gu, Seoul",37.52705399379279,126.92784760336099
+POI_5301f980ef,IFC Mall (IFC몰),shopping,서울특별시 영등포구 국제금융로 10 (여의도동),"10, Gukjegeumyung-ro, Yeongdeungpo-gu, Seoul (Yeouido-dong)",37.525058436298806,126.92593686013313
+POI_705b06aba2,Culture Station Seoul 284 (문화역 서울 284),museum,서울특별시 중구 통일로 1 (봉래동2가),"1 Tongil-ro, Jung-gu, Seoul",37.55604091654651,126.97159453695092
+POI_64cde136b8,Seosomun Historical Park (서소문역사공원),park,서울특별시 중구 칠패로 5 (의주로2가),"5, Chilpae-ro, Jung-gu, Seoul",37.56056786627037,126.9688671744849
+POI_3f0cc47456,Hongdae (Hongik University Street) (홍대),street,서울특별시 마포구 서교동,"20 Hongik-ro, Mapo-gu, Seoul",37.553922523080644,126.9134558741011
+POI_11644c0585,Gyeongui Line Forest Park (Yeontral Park) (경의선숲길(연트럴파크)),park,서울특별시 마포구 연남동,"133, Donggyo-ro 51-gil, Mapo-gu, Seoul",37.56392172640174,126.92291721675069
+POI_9dd7cfb343,Hwarangdae Railroad Park (화랑대 철도공원),park,서울특별시 노원구 화랑로 608 (공릉동),"Gongneung-dong, Nowon-gu, Seoul (공릉동)",37.62444166482504,127.0930907816746
+POI_505e9e82cc,Gwanghwamun Market (광화문 마켓),shopping,서울특별시 종로구 세종대로 지하172 (세종로),"B172 Sejong-daero, Jongno-gu, Seoul",37.57342622322956,126.97595910272963
+POI_fccd2c1517,National Meteorological Museum of Korea (국립기상박물관),museum,서울특별시 종로구 송월동 1-1 국립기상박물관,"52 Songwol-gil, Jongno-gu, Seoul",37.57138636615686,126.96590839512209
+POI_32d2967604,Bukhansan Dulle Trail Section 1 (북한산 둘레길 1 소나무숲길),tourist_spot,서울특별시 강북구 삼양로173길 12,"12 Samyang-ro 173-gil, Gangbuk-gu, Seoul",37.66338266403983,127.01189248568653
+POI_079c404faf,Hyundai Yacht Seoul Branch (현대요트 서울지점),tourist_spot,서울특별시 서초구 동작대로 350 (반포동),"350 Dongjak-daero, Seocho-gu, Seoul",37.50576767208182,126.98108757037474
+POI_c17dfe2769,Dongdaemun Design Plaza (동대문디자인플라자 (DDP)),tourist_spot,서울특별시 중구 을지로 281 (을지로7가),"281 Eulji-ro, Jung-gu, Seoul",37.56707028678808,127.0098788028792
+POI_39e51dd460,Samcheonggak (삼청각),culture,서울특별시 성북구 대사관로 3,3 Daesagwan-ro Seongbuk-gu Seoul,37.59678160388299,126.98467310926749
+POI_d1b64a9f19,Daerim Market (대림시장),street,서울특별시 은평구 응암동 754-1 대림시장,"300-10 Eungam-dong, Eunpyeong-gu, Seoul",37.58681768308281,126.91768667215858
+POI_aa9c2fbb34,Four Seasons Charles H. (포시즌스 찰스 H.),nightlife,서울특별시 종로구 새문안로 97,"97 Saemunan-ro, Jongno-gu, Seoul",37.57069024871687,126.9753951464675
+POI_3a8176c654,National Memorial of Korean Provisional Government (국립대한민국임시정부기념관),museum,서울특별시 서대문구 통일로 279-24,"279-24, Tongil-ro, Seodaemun-gu, Seoul",37.5759996497834,126.9544172159667
+POI_8261652e46,Seodaemun Prison History Museum (서대문형무소역사관),history,서울특별시 서대문구 통일로 251,"251 Tongil-ro, Seodaemun-gu, Seoul",37.57514262535188,126.95561808988049
+POI_4f9d3bb857,Seodaemun Independence Park (서대문독립공원),park,서울특별시 서대문구 통일로 251 (현저동),"251, Tongil-ro, Seodaemun-gu, Seoul",37.57514262535188,126.95561808988049
+POI_d33e541823,Dongnimmun Gate (독립문),history,서울특별시 서대문구 통일로 251 (현저동),"251, Tongil-ro, Seodaemun-gu, Seoul",37.57514262535188,126.95561808988049
+POI_81b73f486d,Dongnimmun Yeongcheon Market (독립문영천시장),market,서울특별시 서대문구 통일로 189-1 (영천동),"189-1, Tongil-ro, Seodaemun-gu, Seoul",37.57032540620695,126.96184522944482
+POI_f952fdaadc,Boan1942 (보안1942),tourist_spot,서울특별시 종로구 효자로 33 (통의동),"33 , Hyoja-ro, Jongno-gu, Seoul",37.57899552372898,126.97366828190579
+POI_cc336e4936,Sangchonjae House (상촌재),history,서울특별시 종로구 자하문로17길 12-11 (옥인동) 상촌재,"12-11 , Jahamun-ro 17-gil, Jongno-gu, Seoul",37.58185134289447,126.96951762521817
+POI_ed3ed98823,Suseongdonggyegok Valley (수성동계곡),park,서울특별시 종로구 옥인동 185-3 (옥인동),"185-3, Ogin-dong, Jongno-gu, Seoul 서울특별시 종로구 옥인동",37.582246147999925,126.96310670520168
+POI_a5fe48cda9,Inwangsan Mountain Chosochaekbang (인왕산 더숲 초소책방),cafe,서울특별시 종로구 인왕산로 172 (옥인동),"172 Inwangsan-ro, Jongno-gu, Seoul",37.585953295307775,126.96427738596299
+POI_8dc64abba6,Cheongun Literature Library (청운문학도서관),tourist_spot,서울특별시 종로구 자하문로36길 40 (청운동),"40 , Jahamun-ro 36-gil, Jongno-gu, Seoul",37.590378140946925,126.96591773231519
+POI_4275addc5e,Suraksan Mountain (수락산),nature,서울특별시 노원구 상계동 산1-1,"San 1-1, Sanggye-dong, Nowon-gu, Seoul",37.68937329527532,127.08077449515949
+POI_5adbf5826d,Seoul Marina Club & Yacht (서울마리나 요트&클럽),tourist_spot,서울특별시 영등포구 여의서로 160,"160 Yeouiseo-ro, Yeongdeungpo-gu, Seoul",37.53480784266169,126.91158532201422
+POI_fbfc20b1e6,Yongsan Family Park (용산가족공원),park,서울특별시 용산구 서빙고로 185 (용산동6가),"185, Seobinggo-ro, Yongsan-gu, Seoul",37.52231956986523,126.98409430108842
+POI_0e4a3fda99,Amorepacific Museum of Art (아모레퍼시픽미술관),museum,서울특별시 용산구 한강대로 100 (한강로2가),"100 Hangang-daero, Yongsan-gu, Seoul",37.52879147211835,126.96867327687788
+POI_ddb59ccc5f,Seoul Battleship Park (서울함공원),tourist_spot,서울특별시 마포구 마포나루길 407,"407 Maponaru-gil, Mapo-gu, Seoul",37.55578810827803,126.89395375611852
+POI_015490a64b,Supsok Hanbang Land (숲속한방랜드),tourist_spot,서울특별시 서대문구 봉원동 51 숲속한방랜드,"75-7 Bongwonsa-gil, Seodaemun-gu, Seoul",37.57022368891852,126.94567778950855
+POI_1f3118ae36,Seoul Namsan Park (남산공원(서울)),park,서울특별시 중구 삼일대로 231 (예장동),"231 Samil-daero, Jung-gu, Seoul",37.555623591809535,126.99219949115763
+POI_e070ff904a,Maison Hannam (메종 한남),restaurant,서울특별시 용산구 유엔빌리지3길 24,"24 UN village 3-gil, Yongsan-gu, Seoul",37.53424135143638,127.01291483173077
+POI_02c246eba0,Cheolgil Tteokbokki (철길떡볶이),restaurant,서울 서대문구 충정로 35-6,"35-6, Chungjeong-ro, Seodaemun-gu, Seoul",37.56230194210451,126.9636033751693
