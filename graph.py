@@ -3,27 +3,8 @@ from langchain_core.messages import HumanMessage, AIMessage
 from langgraph.graph import StateGraph, END
 from langgraph.checkpoint.memory import MemorySaver
 from state import TravelState
-
-# ---------------------------------------------------------------------------
-# Singleton LLM setup
-# ---------------------------------------------------------------------------
-
-_lm: dspy.LM | None = None
-_api_key: str | None = None
-
-def get_lm() -> dspy.LM:
-    global _lm
-    if _lm is None:
-        if not _api_key:
-            raise ValueError("API key not set. Call build_graph(api_key) first.")
-        _lm = dspy.LM(
-            model="gemini/gemini-2.5-flash",
-            api_key=_api_key,
-            temperature=0.7,
-        )
-        dspy.configure(lm=_lm)
-    return _lm
-
+from planner import make_retrieve_node, plan_node
+from llm import set_api_key, lm_context
 
 # ---------------------------------------------------------------------------
 # DSPy Signatures
@@ -47,21 +28,20 @@ class ConfirmIntent(dspy.Signature):
     )
 
 
-# DSPy predictors
+# DSPy predictors — Predict() doesn't bind to an LM at construction time,
+# so we can build them once and let lm_context() supply the LM per call.
 _extractor: dspy.Predict | None = None
 _classifier: dspy.Predict | None = None
 
 def get_extractor() -> dspy.Predict:
     global _extractor
     if _extractor is None:
-        get_lm()
         _extractor = dspy.Predict(TripDetails)
     return _extractor
 
 def get_classifier() -> dspy.Predict:
     global _classifier
     if _classifier is None:
-        get_lm()
         _classifier = dspy.Predict(ConfirmIntent)
     return _classifier
 
@@ -129,7 +109,8 @@ def collect_node(state: TravelState) -> TravelState:
 
     updates = {}
     try:
-        result = get_extractor()(text=last_human)
+        with lm_context():
+            result = get_extractor()(text=last_human)
         for field in ALL_FIELDS:
             value = getattr(result, field, "").strip()
             if value and value.upper() != "MISSING" and not state.get(field):
@@ -162,7 +143,8 @@ def handle_confirm_node(state: TravelState) -> TravelState:
         return state
 
     try:
-        result = get_classifier()(user_message=last_human)
+        with lm_context():
+            result = get_classifier()(user_message=last_human)
         intent = result.intent.strip().upper()
     except Exception as e:
         return {**state, "messages": [AIMessage(content=f"Error occurred. Please try again. ({e})")]}
@@ -172,7 +154,11 @@ def handle_confirm_node(state: TravelState) -> TravelState:
         return {
             **state,
             "confirmed": True,
-            "messages": [AIMessage(content=f"🎉 Perfect! Your trip is confirmed.\n\n{lines}\n\nI’ll use this to plan your itinerary! ✈️")]
+            "current_step": "retrieving",
+            "messages": [AIMessage(
+                content=f"🎉 Perfect! Your trip is confirmed.\n\n{lines}\n\n"
+                        "🔍 Searching course catalogue and drafting your itinerary..."
+            )]
         }
 
     if intent.lower() in ALL_FIELDS:
@@ -192,15 +178,40 @@ def handle_confirm_node(state: TravelState) -> TravelState:
 # ---------------------------------------------------------------------------
 
 def route_entry(state: TravelState) -> str:
-    if state.get("confirmed"):
+    # Finished trip planning — nothing more to do.
+    if state.get("itinerary"):
         return END
+
     step = state.get("current_step", "start")
+
+    # Resume mid-pipeline if the graph was interrupted.
+    if step == "retrieving":
+        return "retrieve"
+    if step == "planning":
+        return "plan"
+
     if step == "confirm":
         messages = state.get("messages", [])
         if messages and isinstance(messages[-1], HumanMessage):
             return "handle_confirm"
         return "confirm"
+
     return "collect"
+
+
+def _after_collect(state: TravelState) -> str:
+    return "confirm" if state.get("current_step") == "confirm" else END
+
+
+def _after_handle_confirm(state: TravelState) -> str:
+    # On CONFIRM, handle_confirm sets current_step="retrieving" → continue.
+    if state.get("current_step") == "retrieving":
+        return "retrieve"
+    return END
+
+
+def _after_retrieve(state: TravelState) -> str:
+    return "plan" if state.get("current_step") == "planning" else END
 
 
 # ---------------------------------------------------------------------------
@@ -208,34 +219,54 @@ def route_entry(state: TravelState) -> str:
 # ---------------------------------------------------------------------------
 
 def build_graph(api_key: str):
-    global _lm, _extractor, _classifier, _api_key
-    # Reset singletons so a new key takes effect
-    _lm = None
+    global _extractor, _classifier
+    # Register the key with the shared LM module. set_api_key() invalidates
+    # the cached dspy.LM if the key changed, so a new key takes effect.
+    set_api_key(api_key)
+    # Predict() instances don't bind to an LM at construction time, but we
+    # still reset them so subsequent runs build fresh ones if anything
+    # signature-related changed on disk.
     _extractor = None
     _classifier = None
-    _api_key = api_key
 
     builder = StateGraph(TravelState)
 
     builder.add_node("collect", collect_node)
     builder.add_node("confirm", confirm_node)
     builder.add_node("handle_confirm", handle_confirm_node)
+    builder.add_node("retrieve", make_retrieve_node(api_key))
+    builder.add_node("plan", plan_node)
 
     builder.set_conditional_entry_point(route_entry, {
         "collect": "collect",
         "confirm": "confirm",
         "handle_confirm": "handle_confirm",
+        "retrieve": "retrieve",
+        "plan": "plan",
         END: END,
     })
 
     builder.add_conditional_edges(
         "collect",
-        lambda s: "confirm" if s.get("current_step") == "confirm" else END,
+        _after_collect,
         {"confirm": "confirm", END: END},
     )
 
     builder.add_edge("confirm", END)
-    builder.add_edge("handle_confirm", END)
+
+    builder.add_conditional_edges(
+        "handle_confirm",
+        _after_handle_confirm,
+        {"retrieve": "retrieve", END: END},
+    )
+
+    builder.add_conditional_edges(
+        "retrieve",
+        _after_retrieve,
+        {"plan": "plan", END: END},
+    )
+
+    builder.add_edge("plan", END)
 
     memory = MemorySaver()
     return builder.compile(checkpointer=memory)
