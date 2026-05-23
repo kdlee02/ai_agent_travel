@@ -28,7 +28,12 @@ _BASE_DIR = Path(__file__).resolve().parent
 COURSE_DATA_PATH = _BASE_DIR / "course_data.json"
 VECTORSTORE_DIR = _BASE_DIR / "vectorstore"
 
-EMBEDDING_MODEL = "models/gemini-embedding-2"
+# Google's current generally-available embedding models:
+#   - "models/text-embedding-004"      (768-dim, stable)
+#   - "models/gemini-embedding-001"    (3072-dim, current best)
+# Note: if you change this, the cached vectorstore/ must be rebuilt with
+# `python build_index.py --rebuild` because vector dimensions won't match.
+EMBEDDING_MODEL = "models/gemini-embedding-001"
 
 # Gemini free tier allows ~100 embed requests / minute / model. Stay well
 # below that so a single chunk never trips the limit even if other calls
@@ -100,7 +105,15 @@ _vectorstore_api_key: str | None = None
 
 
 def _get_embeddings(api_key: str) -> GoogleGenerativeAIEmbeddings:
-    return GoogleGenerativeAIEmbeddings(model=EMBEDDING_MODEL, google_api_key=api_key)
+    # Defensive strip — copy/paste from the browser sometimes carries a
+    # trailing newline or zero-width space that Google rejects as invalid.
+    key = (api_key or "").strip()
+    if not key:
+        raise ValueError(
+            "Empty Gemini API key. Enter a valid key in the sidebar or set "
+            "GOOGLE_API_KEY before launching streamlit."
+        )
+    return GoogleGenerativeAIEmbeddings(model=EMBEDDING_MODEL, google_api_key=key)
 
 
 _RETRY_DELAY_RE = re.compile(r"retry[_ ]delay[^0-9]*(\d+)", re.IGNORECASE)
