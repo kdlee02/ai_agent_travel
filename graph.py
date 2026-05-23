@@ -5,6 +5,7 @@ from langgraph.checkpoint.memory import MemorySaver
 from state import TravelState
 from planner import make_retrieve_node, plan_node
 from llm import set_api_key, lm_context
+from critic_repair import make_critic_repair_node
 
 # ---------------------------------------------------------------------------
 # DSPy Signatures
