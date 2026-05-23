@@ -1,3 +1,4 @@
+import json
 import streamlit as st
 from langchain_core.messages import HumanMessage, AIMessage
 import sys
@@ -81,6 +82,7 @@ def get_current_state() -> TravelState:
         "duration": None, "location": None, "budget": None,
         "dietary": None, "purpose": None,
         "current_step": "start", "confirmed": False, "messages": [],
+        "retrieved_courses": [], "itinerary": None,
     }
 
 
@@ -128,15 +130,89 @@ with collected_placeholder.container():
             st.warning(f"{label}: Not provided")
 
 # ---------------------------------------------------------------------------
+# Itinerary rendering
+# ---------------------------------------------------------------------------
+
+def render_itinerary(itinerary: dict) -> None:
+    st.divider()
+    st.header("🗺️ Your Itinerary")
+
+    summary = itinerary.get("summary")
+    if summary:
+        st.write(summary)
+
+    for day in itinerary.get("days", []):
+        day_num = day.get("day", "?")
+        theme = day.get("theme", "")
+        cost = day.get("estimated_cost", "")
+        header = f"Day {day_num}"
+        if theme:
+            header += f" — {theme}"
+        with st.expander(header, expanded=True):
+            if cost:
+                st.caption(f"💰 Estimated cost: {cost}")
+            for i, poi in enumerate(day.get("pois", []), start=1):
+                name = poi.get("name", "")
+                ptype = poi.get("type", "")
+                addr = poi.get("address", "")
+                stay = poi.get("stay_minutes")
+                notes = poi.get("notes", "")
+                line = f"**{i}. {name}**"
+                if ptype:
+                    line += f"  _({ptype})_"
+                st.markdown(line)
+                meta_bits = []
+                if addr:
+                    meta_bits.append(f"📍 {addr}")
+                if stay:
+                    meta_bits.append(f"⏱️ {stay} min")
+                if meta_bits:
+                    st.caption(" · ".join(meta_bits))
+                if notes:
+                    st.write(notes)
+
+    # Sources block — URLs of the courses the planner actually drew from
+    # (validated against retrieved_courses; falls back to all candidates
+    # if the LLM omitted citations).
+    sources = itinerary.get("sources") or []
+    if sources:
+        st.divider()
+        st.subheader("🔗 Sources")
+        st.caption("Courses referenced for this itinerary:")
+        for s in sources:
+            title = s.get("course_title") or s.get("course_id") or "Untitled course"
+            src = s.get("source") or ""
+            url = s.get("source_url")
+            if url:
+                label = f"- [{title}]({url})"
+                if src:
+                    label += f" — _{src}_"
+                st.markdown(label)
+            else:
+                st.markdown(f"- {title}")
+
+    st.download_button(
+        "⬇️ Download itinerary JSON",
+        data=json.dumps(itinerary, ensure_ascii=False, indent=2),
+        file_name="itinerary.json",
+        mime="application/json",
+    )
+
+
+itinerary = current_state.get("itinerary")
+if itinerary:
+    render_itinerary(itinerary)
+
+# ---------------------------------------------------------------------------
 # Chat input
 # ---------------------------------------------------------------------------
-if not current_state.get("confirmed"):
+if itinerary:
+    st.success("🎉 Your travel plan is ready! Hit Restart in the sidebar to plan another trip.")
+    st.chat_input("Completed.", disabled=True)
+else:
     if user_msg := st.chat_input("Type your message..."):
         with st.chat_message("user"):
             st.write(user_msg)
         with st.spinner("Thinking..."):
             run_graph(user_msg)
         st.rerun()
-else:
-    st.success("🎉 Your travel plan is confirmed! I will use this to plan your itinerary!")
-    st.chat_input("Completed.", disabled=True)
