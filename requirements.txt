@@ -1,6 +1,8 @@
 dspy-ai>=2.5.0
 langchain>=0.3.0
+langchain-community>=0.3.0
 langchain-google-genai>=2.0.0
 langgraph>=0.2.0
+faiss-cpu>=1.8.0
 streamlit>=1.40.0
 python-dotenv>=1.0.0
