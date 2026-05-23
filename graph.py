@@ -267,7 +267,9 @@ def build_graph(api_key: str):
         {"plan": "plan", END: END},
     )
 
-    builder.add_edge("plan", END)
+    builder.add_node("critic_repair", make_critic_repair_node(Path(__file__).parent))
+    builder.add_edge("plan", "critic_repair")
+    builder.add_edge("critic_repair", END)
 
     memory = MemorySaver()
     return builder.compile(checkpointer=memory)
