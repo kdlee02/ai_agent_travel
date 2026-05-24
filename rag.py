@@ -211,13 +211,17 @@ def build_or_load_vectorstore(
 # ---------------------------------------------------------------------------
 
 def _extract_areas(location: str) -> list[str]:
-    """
-    location 문자열에서 개별 지역 추출.
-    예: "Hongdae and Seongsu" → ["Hongdae", "Seongsu"]
-    예: "Hongdae, Mangwon" → ["Hongdae", "Mangwon"]
-    """
+    # 괄호 제거
+    location = re.sub(r'[()]', '', location)
+    # and, &, comma, slash로 분리
     areas = re.split(r"\s+and\s+|\s*&\s*|\s*,\s*|\s*/\s*", location, flags=re.IGNORECASE)
-    return [a.strip() for a in areas if a.strip()]
+    # 빈 문자열, "Seoul" 단독 제거
+    cleaned = []
+    for a in areas:
+        a = a.strip()
+        if a and a.lower() != 'seoul':
+            cleaned.append(a)
+    return cleaned
 
 
 def build_query(
