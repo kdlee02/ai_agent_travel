@@ -213,15 +213,12 @@ def build_or_load_vectorstore(
 def _extract_areas(location: str) -> list[str]:
     # 괄호 제거
     location = re.sub(r'[()]', '', location)
+    # "Seoul" 단독 단어 제거
+    location = re.sub(r'\bSeoul\b', '', location, flags=re.IGNORECASE)
     # and, &, comma, slash로 분리
     areas = re.split(r"\s+and\s+|\s*&\s*|\s*,\s*|\s*/\s*", location, flags=re.IGNORECASE)
-    # 빈 문자열, "Seoul" 단독 제거
-    cleaned = []
-    for a in areas:
-        a = a.strip()
-        if a and a.lower() != 'seoul':
-            cleaned.append(a)
-    return cleaned
+    # 빈 문자열 제거
+    return [a.strip() for a in areas if a.strip()]
 
 
 def build_query(
