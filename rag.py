@@ -4,6 +4,11 @@ Builds (or loads) a FAISS index of Seoul travel courses, embedded with
 Google's text-embedding-004. Each course becomes one Document; the full
 course dict is stashed in metadata so retrieval hands the planner
 ready-to-use POI sequences.
+
+개선사항:
+1. 여러 지역 입력 시 (예: "Hongdae and Seongsu") 지역별 분리 검색
+2. 목적별 특화 쿼리 생성
+3. 중복 제거 후 합치기
 """
 
 from __future__ import annotations
@@ -28,16 +33,8 @@ _BASE_DIR = Path(__file__).resolve().parent
 COURSE_DATA_PATH = _BASE_DIR / "course_data.json"
 VECTORSTORE_DIR = _BASE_DIR / "vectorstore"
 
-# Google's current generally-available embedding models:
-#   - "models/text-embedding-004"      (768-dim, stable)
-#   - "models/gemini-embedding-001"    (3072-dim, current best)
-# Note: if you change this, the cached vectorstore/ must be rebuilt with
-# `python build_index.py --rebuild` because vector dimensions won't match.
 EMBEDDING_MODEL = "models/gemini-embedding-001"
 
-# Gemini free tier allows ~100 embed requests / minute / model. Stay well
-# below that so a single chunk never trips the limit even if other calls
-# are in flight.
 EMBED_CHUNK_SIZE = 50
 EMBED_CHUNK_SLEEP_SECONDS = 60
 EMBED_MAX_RETRIES = 5
@@ -84,8 +81,6 @@ def _course_to_document(course: dict[str, Any]) -> Document:
         "themes": course.get("theme_category", []) or [],
         "poi_count": len(sequence),
         "total_estimated_minutes": total_min,
-        # Full course payload so the planner can read POIs straight from
-        # the retrieved Document without a second lookup.
         "course": course,
     }
     return Document(page_content=_course_to_text(course), metadata=metadata)
@@ -105,8 +100,6 @@ _vectorstore_api_key: str | None = None
 
 
 def _get_embeddings(api_key: str) -> GoogleGenerativeAIEmbeddings:
-    # Defensive strip — copy/paste from the browser sometimes carries a
-    # trailing newline or zero-width space that Google rejects as invalid.
     key = (api_key or "").strip()
     if not key:
         raise ValueError(
@@ -124,7 +117,7 @@ def _parse_retry_seconds(err: Exception, default: int = EMBED_CHUNK_SLEEP_SECOND
     m = _RETRY_DELAY_RE.search(str(err))
     if m:
         try:
-            return int(m.group(1)) + 1  # +1s of slack
+            return int(m.group(1)) + 1
         except ValueError:
             pass
     return default
@@ -149,7 +142,7 @@ def _embed_with_retry(
                 f"sleeping {wait}s and retrying..."
             )
             time.sleep(wait)
-    raise RuntimeError("unreachable")  # for type-checkers
+    raise RuntimeError("unreachable")
 
 
 def _embed_documents_chunked(
@@ -168,7 +161,6 @@ def _embed_documents_chunked(
         print(f"   embedding {start + 1}–{end} of {total}...")
         vectors = _embed_with_retry(embeddings, chunk)
         pairs.extend(zip(chunk, vectors))
-        # Sleep only if there's another chunk coming.
         if end < total:
             print(f"   sleeping {chunk_sleep}s to respect rate limit...")
             time.sleep(chunk_sleep)
@@ -180,19 +172,9 @@ def build_or_load_vectorstore(
     persist_dir: Path = VECTORSTORE_DIR,
     rebuild: bool = False,
 ) -> FAISS:
-    """Return a FAISS index over course_data.json.
-
-    Persists the index to ``persist_dir`` so embedding cost is paid once
-    per machine. Pass ``rebuild=True`` to force re-embedding.
-
-    Embedding runs in chunks of ``EMBED_CHUNK_SIZE`` with
-    ``EMBED_CHUNK_SLEEP_SECONDS`` between chunks to stay under Gemini's
-    free-tier per-minute quota; 429 errors are retried with the server's
-    suggested delay.
-    """
+    """Return a FAISS index over course_data.json."""
     global _vectorstore, _vectorstore_api_key
 
-    # Reuse in-process cache if the key hasn't changed.
     if _vectorstore is not None and _vectorstore_api_key == api_key and not rebuild:
         return _vectorstore
 
@@ -228,6 +210,16 @@ def build_or_load_vectorstore(
 # Retrieval
 # ---------------------------------------------------------------------------
 
+def _extract_areas(location: str) -> list[str]:
+    """
+    location 문자열에서 개별 지역 추출.
+    예: "Hongdae and Seongsu" → ["Hongdae", "Seongsu"]
+    예: "Hongdae, Mangwon" → ["Hongdae", "Mangwon"]
+    """
+    areas = re.split(r"\s+and\s+|\s*&\s*|\s*,\s*|\s*/\s*", location, flags=re.IGNORECASE)
+    return [a.strip() for a in areas if a.strip()]
+
+
 def build_query(
     purpose: str | None,
     dietary: str | None,
@@ -252,9 +244,58 @@ def build_query(
 def retrieve_courses(
     api_key: str,
     query: str,
-    k: int = 10,
+    k: int = 5,
+    location: str | None = None,
+    purpose: str | None = None,
 ) -> list[dict[str, Any]]:
-    """Return the top-k course dicts (full payloads) for a query."""
+    """
+    Return the top-k course dicts (full payloads) for a query.
+    location이 여러 지역이면 각각 검색해서 합침.
+    """
     store = build_or_load_vectorstore(api_key)
-    docs = store.similarity_search(query, k=k)
-    return [d.metadata.get("course", {}) for d in docs if d.metadata.get("course")]
+
+    # 지역 추출
+    areas = _extract_areas(location) if location else []
+
+    if len(areas) >= 2:
+        # 여러 지역이면 각각 검색 후 합치기
+        seen_ids: set[str] = set()
+        all_courses: list[dict[str, Any]] = []
+        per_area_k = max(2, k // len(areas))
+
+        for area in areas:
+            # 지역별 특화 쿼리 생성
+            if purpose:
+                area_query = f"{area} {purpose} Seoul travel itinerary"
+            else:
+                area_query = f"{area} Seoul travel itinerary"
+
+            docs = store.similarity_search(area_query, k=per_area_k)
+            for d in docs:
+                course = d.metadata.get("course", {})
+                cid = course.get("course_id")
+                if cid and cid not in seen_ids:
+                    seen_ids.add(cid)
+                    all_courses.append(course)
+
+        # 부족하면 전체 쿼리로 보완
+        if len(all_courses) < k:
+            docs = store.similarity_search(query, k=k)
+            for d in docs:
+                course = d.metadata.get("course", {})
+                cid = course.get("course_id")
+                if cid and cid not in seen_ids:
+                    seen_ids.add(cid)
+                    all_courses.append(course)
+                    if len(all_courses) >= k:
+                        break
+
+        print(f"[RAG] 지역별 검색: {areas} → {len(all_courses)}개 코스 확보")
+        return all_courses[:k]
+
+    else:
+        # 단일 지역이면 기존 방식
+        docs = store.similarity_search(query, k=k)
+        courses = [d.metadata.get("course", {}) for d in docs if d.metadata.get("course")]
+        print(f"[RAG] 단일 검색 → {len(courses)}개 코스 확보")
+        return courses
