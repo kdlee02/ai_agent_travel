@@ -633,7 +633,13 @@ def make_retrieve_node(api_key: str):
         )
         try:
             # k=5로 늘려서 더 많은 POI 후보 확보
-            courses = retrieve_courses(api_key=api_key, query=query, k=5)
+            courses = retrieve_courses(
+                api_key=api_key,
+                query=query,
+                k=5,
+                location=state.get("location"),
+                purpose=state.get("purpose"),
+            )
         except Exception as e:
             return {
                 **state,
