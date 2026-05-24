@@ -29,6 +29,9 @@ from llm import lm_context
 from rag import build_query, retrieve_courses
 from state import TravelState
 
+from dotenv import load_dotenv
+load_dotenv()
+
 
 # ---------------------------------------------------------------------------
 # Google Places 설정
