@@ -1,0 +1,32 @@
+# API 키 - 절대 올리지 말 것
+.env
+
+# 캐시
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 벡터스토어 (로컬에서 build_index.py로 재생성)
+vectorstore/
+
+# 테스트 결과물
+output/critic_result.json
+output/final_itinerary.json
+output/replanned_itinerary_v3_1.json
+output/repaired_itinerary.json
+output/area_profiles_v2_backup.json
+output/area_profiles_v2_before_inject.json
+
+# 디버그 파일
+planner_last_failed.txt
+
+# 임시/테스트 파일
+check3.py
+generator.zip
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db

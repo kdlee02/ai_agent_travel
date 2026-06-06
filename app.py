@@ -9,6 +9,9 @@ sys.path.insert(0, os.path.dirname(__file__))
 from graph import build_graph
 from state import TravelState
 
+from dotenv import load_dotenv
+load_dotenv()
+
 st.set_page_config(page_title="Travel Planner 🗺️", page_icon="✈️", layout="centered")
 st.title("✈️ AI Travel Planner")
 st.caption("Enter your travel details and get a personalized itinerary.")
